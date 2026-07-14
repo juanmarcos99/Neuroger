@@ -1,0 +1,27 @@
+# ninja log v5
+175	708	798674372	CMakeFiles/getglobalCDR_terminate.dir/getglobalCDR_terminate.c.o	159a851a94c9295
+679	1436	798674373	D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/build/intermediates/cmake/debug/obj/arm64-v8a/librtGetNaN.so	1210e711cec421ab
+187	762	798674372	CMakeFiles/getglobalCDR.dir/getglobalCDR.c.o	1212ea0fb66e29fa
+198	802	798674372	CMakeFiles/rt_nonfinite.dir/rt_nonfinite.c.o	8f1b0582122f5ec6
+92	679	798674372	CMakeFiles/rtGetNaN.dir/rtGetNaN.c.o	5ca973bb6d972c07
+1987	2429	798674374	D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/build/intermediates/cmake/debug/obj/arm64-v8a/libsortIdx.so	bb4ea23411859e08
+762	1280	798674373	CMakeFiles/sum.dir/sum.c.o	b0f7cde7832cbf54
+664	1094	798674373	CMakeFiles/sort1.dir/sort1.c.o	1624f62acedde2c
+163	664	798674372	CMakeFiles/getglobalCDR_initialize.dir/getglobalCDR_initialize.c.o	1a724bc36d791b76
+1094	1566	798674373	CMakeFiles/sortIdx.dir/sortIdx.c.o	73927d8d007b21c7
+1296	1627	798674373	CMakeFiles/ifWhileCond.dir/ifWhileCond.c.o	d22918c6ed9fba91
+708	1376	798674373	D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/build/intermediates/cmake/debug/obj/arm64-v8a/libgetglobalCDR_terminate.so	d2c438360c181a3e
+21	1589	798674373	CMakeFiles/neuroger.dir/neuroger.cpp.o	4d736188c9c26cc5
+802	1295	798674373	CMakeFiles/sign.dir/sign.c.o	eca9469fd5b4a8ac
+1281	1591	798674373	CMakeFiles/rtGetInf.dir/rtGetInf.c.o	c7e455939fe65721
+2813	3057	798674375	D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/build/intermediates/cmake/debug/obj/arm64-v8a/libneuroger.so	4762d8f1e448da6d
+2018	2447	798674374	D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/build/intermediates/cmake/debug/obj/arm64-v8a/libifWhileCond.so	3d78a2bf01513c6
+1376	1655	798674373	CMakeFiles/histcounts.dir/histcounts.c.o	bf9029429110743b
+1591	1779	798674373	D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/build/intermediates/cmake/debug/obj/arm64-v8a/librtGetInf.so	8ca75a6c441d9d5
+1779	1942	798674374	D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/build/intermediates/cmake/debug/obj/arm64-v8a/librt_nonfinite.so	15ca2ef02e162d39
+1942	2372	798674374	D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/build/intermediates/cmake/debug/obj/arm64-v8a/libgetglobalCDR_initialize.so	3e80043e7c67f1d7
+1972	2393	798674374	D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/build/intermediates/cmake/debug/obj/arm64-v8a/libsign.so	b27d74b8b9e34f18
+1957	2379	798674374	D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/build/intermediates/cmake/debug/obj/arm64-v8a/libsum.so	bcc87f62db7c13c7
+2002	2420	798674374	D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/build/intermediates/cmake/debug/obj/arm64-v8a/libhistcounts.so	3ff45d558e580923
+2429	2625	798674374	D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/build/intermediates/cmake/debug/obj/arm64-v8a/libsort1.so	547893676e139b21
+2625	2813	798674374	D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/build/intermediates/cmake/debug/obj/arm64-v8a/libgetglobalCDR.so	e6ecc088242b10be

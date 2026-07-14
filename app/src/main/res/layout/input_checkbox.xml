@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<software.cneuro.neurogertheme.CheckBoxFont xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_input_cbx"
+    style="@style/CheckboxStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:text="@string/list_empty"
+    app:myFont="Roboto-Light_3.ttf" />

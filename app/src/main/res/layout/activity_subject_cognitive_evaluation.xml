@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/name_container"
+            layout="@layout/subject_name_large_image" />
+
+        <software.cneuro.neurogertheme.TextViewFont
+            android:id="@+id/general_evaluation_result"
+            style="@style/SubjectCardDetailTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/fragment_margin"
+            android:text="@string/general_classification"
+            android:visibility="gone"
+            app:myFont="Roboto-Thin_3.ttf"/>
+
+        <fragment
+            android:id="@+id/card_mini_mental"
+            android:name="software.cneuro.neuroger.ui.detail.card.CardEvaluationItemFragment"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_no_item_height" />
+
+        <include
+            layout="@layout/horizontal_line_light_thin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <fragment
+            android:id="@+id/card_gds"
+            android:name="software.cneuro.neuroger.ui.detail.card.CardEvaluationItemFragment"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_no_item_height" />
+
+        <include
+            layout="@layout/horizontal_line_light_thin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <fragment
+            android:id="@+id/card_pfeiffer"
+            android:name="software.cneuro.neuroger.ui.detail.card.CardEvaluationItemFragment"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_no_item_height" />
+
+        <include
+            layout="@layout/horizontal_line_light_thin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <fragment
+            android:id="@+id/card_hhies"
+            android:name="software.cneuro.neuroger.ui.detail.card.CardEvaluationItemFragment"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_no_item_height" />
+
+        <include
+            layout="@layout/horizontal_line_light_thin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <fragment
+            android:id="@+id/card_cdr"
+            android:name="software.cneuro.neuroger.ui.detail.card.CardEvaluationItemFragment"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_no_item_height" />
+
+        <include
+            layout="@layout/horizontal_line_light_thin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fragment_margin" />
+    </LinearLayout>
+</ScrollView>

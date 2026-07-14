@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/fragment_margin"
+            android:layout_marginTop="@dimen/fragment_margin"
+            android:layout_marginRight="@dimen/fragment_margin"
+            app:cardBackgroundColor="@color/card_background"
+            app:cardElevation="@dimen/card_elevation">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    style="@style/CustomPadding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/primary">
+
+                    <software.cneuro.neurogertheme.TextViewFont
+                        style="@style/SubjectCardTitleWhiteTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@+id/card_orientation_temp_help_icon"
+                        android:layout_toLeftOf="@+id/card_orientation_temp_help_icon"
+                        android:gravity="center_vertical"
+                        android:text="@string/card_label_temporal"
+                        app:myFont="Roboto-Thin_3.ttf" />
+
+                    <ImageButton
+                        android:id="@+id/card_orientation_temp_help_icon"
+                        style="@style/HelpIconWhiteStyle"
+                        android:layout_width="@dimen/card_evaluation_help_image_height"
+                        android:layout_height="@dimen/card_evaluation_help_image_height"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/cd_list_item_icon" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/detail_card_1_container_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.v7.widget.CardView>
+
+        <androidx.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/fragment_margin"
+            android:layout_marginTop="@dimen/fragment_margin"
+            android:layout_marginRight="@dimen/fragment_margin"
+            app:cardBackgroundColor="@color/card_background"
+            app:cardElevation="@dimen/card_elevation">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    style="@style/CustomPadding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/primary">
+
+                    <software.cneuro.neurogertheme.TextViewFont
+                        style="@style/SubjectCardTitleWhiteTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@+id/card_orientation_spatial_help_icon"
+                        android:layout_toLeftOf="@+id/card_orientation_spatial_help_icon"
+                        android:gravity="center_vertical"
+                        android:text="@string/card_label_spatial"
+                        app:myFont="Roboto-Thin_3.ttf" />
+
+                    <ImageButton
+                        android:id="@+id/card_orientation_spatial_help_icon"
+                        style="@style/HelpIconWhiteStyle"
+                        android:layout_width="@dimen/card_evaluation_help_image_height"
+                        android:layout_height="@dimen/card_evaluation_help_image_height"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/cd_list_item_icon" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/detail_card_1_container_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.v7.widget.CardView>
+
+        <androidx.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/fragment_margin"
+            android:layout_marginTop="@dimen/fragment_margin"
+            android:layout_marginRight="@dimen/fragment_margin"
+            app:cardBackgroundColor="@color/card_background"
+            app:cardElevation="@dimen/card_elevation">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    style="@style/CustomPadding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/primary">
+
+                    <software.cneuro.neurogertheme.TextViewFont
+                        android:id="@+id/card_retention_title"
+                        style="@style/SubjectCardTitleWhiteTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@+id/card_retention_help_icon"
+                        android:layout_toLeftOf="@+id/card_retention_help_icon"
+                        android:gravity="center_vertical"
+                        android:text="@string/card_label_retention_info"
+                        app:myFont="Roboto-Thin_3.ttf" />
+
+                    <ImageButton
+                        android:id="@+id/card_retention_help_icon"
+                        style="@style/HelpIconWhiteStyle"
+                        android:layout_width="@dimen/card_evaluation_help_image_height"
+                        android:layout_height="@dimen/card_evaluation_help_image_height"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/cd_list_item_icon" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/detail_card_2_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.v7.widget.CardView>
+
+        <androidx.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/fragment_margin"
+            android:layout_marginTop="@dimen/fragment_margin"
+            android:layout_marginRight="@dimen/fragment_margin"
+            app:cardBackgroundColor="@color/card_background"
+            app:cardElevation="@dimen/card_elevation">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/card_math_title_container"
+                    style="@style/CustomPadding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:background="@color/primary">
+
+                    <software.cneuro.neurogertheme.TextViewFont
+                        style="@style/SubjectCardTitleWhiteTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@+id/card_math_attention_help_icon"
+                        android:layout_toLeftOf="@+id/card_math_attention_help_icon"
+                        android:gravity="center_vertical"
+                        android:text="@string/card_label_math_attention"
+                        app:myFont="Roboto-Thin_3.ttf" />
+
+                    <ImageButton
+                        android:id="@+id/card_math_attention_help_icon"
+                        style="@style/HelpIconWhiteStyle"
+                        android:layout_width="@dimen/card_evaluation_help_image_height"
+                        android:layout_height="@dimen/card_evaluation_help_image_height"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/cd_list_item_icon" />
+
+                </RelativeLayout>
+
+                <RadioGroup
+                    android:id="@+id/math_attention_radioGroup_test_selection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/edit_word_spelling"
+                    android:layout_below="@+id/card_math_title_container"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="16dp"
+                    android:orientation="vertical"
+                    android:padding="4dp">
+
+                    <software.cneuro.neurogertheme.RadioButtonFont
+                        android:id="@+id/card_math_attention_rdb_1"
+                        style="@style/RadioButtonInputStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:gravity="top" />
+
+                    <software.cneuro.neurogertheme.RadioButtonFont
+                        android:id="@+id/card_math_attention_rdb_2"
+                        style="@style/RadioButtonInputStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_marginBottom="22dp"
+                        android:layout_weight="1"
+                        android:gravity="bottom" />
+                </RadioGroup>
+
+                <software.cneuro.neurogertheme.TextViewFont
+                    android:id="@+id/card_math_attention_title"
+                    style="@style/SubjectCardTitleBlackTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/card_math_title_container"
+                    android:layout_toEndOf="@id/math_attention_radioGroup_test_selection"
+                    android:layout_toRightOf="@id/math_attention_radioGroup_test_selection"
+                    android:gravity="center_vertical"
+                    android:padding="16dp"
+                    android:text="@string/card_label_calc"
+                    app:myFont="Roboto-Thin_3.ttf" />
+
+                <LinearLayout
+                    android:id="@+id/detail_card_3_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/card_math_attention_title"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_toEndOf="@id/math_attention_radioGroup_test_selection"
+                    android:layout_toRightOf="@id/math_attention_radioGroup_test_selection"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+                <software.cneuro.neurogertheme.TextViewFont
+                    android:id="@+id/card_title_text"
+                    style="@style/SubjectCardTitleBlackTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/detail_card_3_container"
+                    android:layout_toEndOf="@id/math_attention_radioGroup_test_selection"
+                    android:layout_toRightOf="@id/math_attention_radioGroup_test_selection"
+                    android:gravity="center_vertical"
+                    android:padding="16dp"
+                    android:text="@string/card_label_spelling_word"
+                    app:myFont="Roboto-Thin_3.ttf" />
+
+                <software.cneuro.neurogertheme.EditTextFont
+                    android:id="@+id/edit_word_spelling"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/input_control_height"
+                    android:layout_below="@id/card_title_text"
+                    android:layout_marginStart="@dimen/fragment_margin"
+                    android:layout_marginLeft="@dimen/fragment_margin"
+                    android:layout_marginEnd="@dimen/fragment_margin"
+                    android:layout_marginRight="@dimen/fragment_margin"
+                    android:layout_marginBottom="@dimen/fragment_margin"
+                    android:padding="8dp"
+                    app:myFont="Roboto-Light_3.ttf" />
+            </RelativeLayout>
+
+        </androidx.v7.widget.CardView>
+
+        <androidx.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/fragment_margin"
+            android:layout_marginTop="@dimen/fragment_margin"
+            android:layout_marginRight="@dimen/fragment_margin"
+            app:cardBackgroundColor="@color/card_background"
+            app:cardElevation="@dimen/card_elevation">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    style="@style/CustomPadding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/primary">
+
+                    <software.cneuro.neurogertheme.TextViewFont
+                        android:id="@+id/card_reminder_title"
+                        style="@style/SubjectCardTitleWhiteTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@+id/card_reminder_help_icon"
+                        android:layout_toLeftOf="@+id/card_reminder_help_icon"
+                        android:gravity="center_vertical"
+                        android:text="@string/card_label_reminder"
+                        app:myFont="Roboto-Thin_3.ttf" />
+
+                    <ImageButton
+                        android:id="@+id/card_reminder_help_icon"
+                        style="@style/HelpIconWhiteStyle"
+                        android:layout_width="@dimen/card_evaluation_help_image_height"
+                        android:layout_height="@dimen/card_evaluation_help_image_height"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/cd_list_item_icon" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/detail_card_4_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.v7.widget.CardView>
+
+        <androidx.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/fragment_margin"
+            android:layout_marginTop="@dimen/fragment_margin"
+            android:layout_marginRight="@dimen/fragment_margin"
+            app:cardBackgroundColor="@color/card_background"
+            app:cardElevation="@dimen/card_elevation">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <software.cneuro.neurogertheme.TextViewFont
+                    android:id="@+id/card_language_title"
+                    style="@style/SubjectCardTitleWhiteTextStyle.CustomPadding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/primary"
+                    android:gravity="center_vertical"
+                    android:text="@string/card_label_language"
+                    app:myFont="Roboto-Thin_3.ttf" />
+
+                <LinearLayout
+                    android:id="@+id/detail_card_5_container_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.v7.widget.CardView>
+
+        <androidx.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/fragment_margin"
+            android:layout_marginTop="@dimen/fragment_margin"
+            android:layout_marginRight="@dimen/fragment_margin"
+            app:cardBackgroundColor="@color/card_background"
+            app:cardElevation="@dimen/card_elevation">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    style="@style/CustomPadding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/primary">
+
+                    <software.cneuro.neurogertheme.TextViewFont
+                        android:id="@+id/card_order_in_3"
+                        style="@style/SubjectCardTitleWhiteTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@+id/card_order_in_3_help_icon"
+                        android:layout_toLeftOf="@+id/card_order_in_3_help_icon"
+                        android:gravity="center_vertical"
+                        android:text="@string/card_label_order_3"
+                        app:myFont="Roboto-Thin_3.ttf" />
+
+                    <ImageButton
+                        android:id="@+id/card_order_in_3_help_icon"
+                        style="@style/HelpIconWhiteStyle"
+                        android:layout_width="@dimen/card_evaluation_help_image_height"
+                        android:layout_height="@dimen/card_evaluation_help_image_height"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/cd_list_item_icon" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/detail_card_5_container_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:orientation="vertical" />
+            </LinearLayout>
+
+        </androidx.v7.widget.CardView>
+
+        <androidx.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/fragment_margin"
+            app:cardBackgroundColor="@color/card_background"
+            app:cardElevation="@dimen/card_elevation">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    style="@style/CustomPadding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/primary">
+
+                    <software.cneuro.neurogertheme.TextViewFont
+                        android:id="@+id/card_design_title"
+                        style="@style/SubjectCardTitleWhiteTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@+id/card_design_help_icon"
+                        android:layout_toLeftOf="@+id/card_design_help_icon"
+                        android:gravity="center_vertical"
+                        android:text="@string/card_label_design"
+                        app:myFont="Roboto-Thin_3.ttf" />
+
+                    <ImageButton
+                        android:id="@+id/card_design_help_icon"
+                        style="@style/HelpIconWhiteStyle"
+                        android:layout_width="@dimen/card_evaluation_help_image_height"
+                        android:layout_height="@dimen/card_evaluation_help_image_height"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/cd_list_item_icon" />
+
+                    <ImageButton
+                        android:id="@+id/card_design_image_help_icon"
+                        style="@style/ImageHelpWhiteIconStyle"
+                        android:layout_width="@dimen/card_evaluation_help_image_height"
+                        android:layout_height="@dimen/card_evaluation_help_image_height"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_toStartOf="@id/card_design_help_icon"
+                        android:layout_toLeftOf="@id/card_design_help_icon"
+                        android:contentDescription="@string/cd_list_item_icon" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/detail_card_6_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.v7.widget.CardView>
+
+        <include layout="@layout/action_btn_container" />
+
+    </LinearLayout>
+</androidx.v4.widget.NestedScrollView>

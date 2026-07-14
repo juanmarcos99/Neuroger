@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<software.cneuro.neurogertheme.TextViewFont xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/subject_detail_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:gravity="center"
+    android:paddingEnd="@dimen/fragment_margin"
+    android:paddingLeft="@dimen/fragment_margin"
+    android:paddingRight="@dimen/fragment_margin"
+    android:paddingStart="@dimen/fragment_margin"
+    android:paddingTop="@dimen/fragment_margin"
+    android:text="@string/yo"
+    android:textColor="@color/questionary_name"
+    android:textSize="@dimen/questionary_name_size"
+    app:myFont="Roboto-Light_3.ttf" />

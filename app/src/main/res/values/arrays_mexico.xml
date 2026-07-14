@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="mexico_provinces">
+        <item>Aguascalientes</item>
+        <item>Baja California</item>
+        <item>Baja California Sur</item>
+        <item>Campeche</item>
+        <item>Chiapas</item>
+        <item>Chihuahua</item>
+        <item>Coahuila</item>
+        <item>Colima</item>
+        <item>Distrito Federal</item>
+        <item>Durango</item>
+        <item>Estado de México</item>
+        <item>Guanajuato</item>
+        <item>Guerrero</item>
+        <item>Hidalgo</item>
+        <item>Jalisco</item>
+        <item>Michoacán</item>
+        <item>Morelos</item>
+        <item>Nayarit</item>
+        <item>Nuevo León</item>
+        <item>Oaxaca</item>
+        <item>Puebla</item>
+        <item>Querétaro</item>
+        <item>Quintana Roo</item>
+        <item>San Luis Potosí</item>
+        <item>Sinaloa</item>
+        <item>Sonora</item>
+        <item>Tabasco</item>
+        <item>Tamaulipas</item>
+        <item>Tlaxcala</item>
+        <item>Veracruz</item>
+        <item>Yucatán</item>
+        <item>Zacatecas</item>
+    </array>
+
+    <array name="mexico_state_municipalities">
+        <item>Acambay</item>
+        <item>Acolman</item>
+        <item>Aculco</item>
+        <item>Almoloya de Alquisiras</item>
+        <item>Almoloya de Juárez</item>
+        <item>Almoloya del Río</item>
+        <item>Amanalco</item>
+        <item>Amatepec</item>
+        <item>Amecameca</item>
+        <item>Apaxco</item>
+        <item>Atenco</item>
+        <item>Atizapán</item>
+        <item>Atizapán de Zaragoza</item>
+        <item>Atlacomulco</item>
+        <item>Atlautla</item>
+        <item>Axapusco</item>
+        <item>Ayapango</item>
+        <item>Calimaya</item>
+        <item>Capulhuac</item>
+        <item>Chalco</item>
+        <item>Chapa de Mota</item>
+        <item>Chapultepec</item>
+        <item>Chiautla</item>
+        <item>Chicoloapan</item>
+        <item>Chiconcuac</item>
+        <item>Chimalhuacán</item>
+        <item>Coacalco de Berriozábal</item>
+        <item>Coatepec Harinas</item>
+        <item>Cocotitlán</item>
+        <item>Coyotepec</item>
+        <item>Cuautitlán</item>
+        <item>Cuautitlán Izcalli</item>
+        <item>Donato Guerra</item>
+        <item>Ecatepec de Morelos</item>
+        <item>Ecatzingo</item>
+        <item>El Oro</item>
+        <item>Huehuetoca</item>
+        <item>Hueypoxtla</item>
+        <item>Huixquilucan</item>
+        <item>Isidro Fabela</item>
+        <item>Ixtapaluca</item>
+        <item>Ixtapan de la Sal</item>
+        <item>Ixtapan del Oro</item>
+        <item>Ixtlahuaca</item>
+        <item>Jaltenco</item>
+        <item>Jilotepec</item>
+        <item>Jilotzingo</item>
+        <item>Jiquipilco</item>
+        <item>Jocotitlán</item>
+        <item>Joquicingo</item>
+        <item>Juchitepec</item>
+        <item>La Paz</item>
+        <item>Lerma</item>
+        <item>Luvianos</item>
+        <item>Malinalco</item>
+        <item>Melchor Ocampo</item>
+        <item>Metepec</item>
+        <item>Mexicaltzingo</item>
+        <item>Morelos</item>
+        <item>Naucalpan de Juárez</item>
+        <item>Nextlalpan</item>
+        <item>Nezahualcóyotl</item>
+        <item>Nicolás Romero</item>
+        <item>Nopaltepec</item>
+        <item>Ocoyoacac</item>
+        <item>Ocuilan</item>
+        <item>Otumba</item>
+        <item>Otzoloapan</item>
+        <item>Otzolotepec</item>
+        <item>Ozumba</item>
+        <item>Papalotla</item>
+        <item>Polotitlán</item>
+        <item>Rayón</item>
+        <item>San Antonio la Isla</item>
+        <item>San Felipe del Progreso</item>
+        <item>San José del Rincón</item>
+        <item>San Martín de las Pirámides</item>
+        <item>San Mateo Atenco</item>
+        <item>San Simón de Guerrero</item>
+        <item>Santo Tomás</item>
+        <item>Soyaniquilpan de Juárez</item>
+        <item>Sultepec</item>
+        <item>Tecámac</item>
+        <item>Tejupilco</item>
+        <item>Temamatla</item>
+        <item>Temascalapa</item>
+        <item>Temascalcingo</item>
+        <item>Temascaltepec</item>
+        <item>Temoaya</item>
+        <item>Temoaya</item>
+        <item>Tenango del Aire</item>
+        <item>Tenango del Valle</item>
+        <item>Teoloyucán</item>
+        <item>Teotihuacán</item>
+        <item>Tepetlaoxtoc</item>
+        <item>Tepetlixpa</item>
+        <item>Tepotzotlán</item>
+        <item>Tequixquiac</item>
+        <item>Texcaltitlán</item>
+        <item>Texcalyacac</item>
+        <item>Texcoco</item>
+        <item>Tezoyuca</item>
+        <item>Tianguistenco</item>
+        <item>Timilpan</item>
+        <item>Tlalmanalco</item>
+        <item>Tlalnepantla de Baz</item>
+        <item>Tlatlaya</item>
+        <item>Toluca</item>
+        <item>Tonanitla</item>
+        <item>Tonatico</item>
+        <item>Tultepec</item>
+        <item>Tultitlán</item>
+        <item>Valle de Bravo</item>
+        <item>Valle de Chalco </item>
+        <item>Solidaridad</item>
+        <item>Villa de Allende</item>
+        <item>Villa del Carbón</item>
+        <item>Villa Guerrero</item>
+        <item>Villa Victoria</item>
+        <item>Xalatlaco</item>
+        <item>Xonacatlán</item>
+        <item>Zacazonapan</item>
+        <item>Zacualpan</item>
+        <item>Zinacantepec</item>
+        <item>Zumpahuacán</item>
+        <item>Zumpango</item>
+    </array>
+</resources>

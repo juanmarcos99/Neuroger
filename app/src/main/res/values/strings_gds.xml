@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="card_gds_title">Escala de depresión Yesavage</string>
+
+    <!-- GERIATRIC DEPRESSION SCALE EVALUATION -->
+    <string name="gds_result_ok">Sin depresión</string>
+    <string name="gds_result_regular">Depresión probable</string>
+    <string name="gds_result_negative">Con depresión</string>
+
+</resources>

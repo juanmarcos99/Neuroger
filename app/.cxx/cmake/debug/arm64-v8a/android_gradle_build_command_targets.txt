@@ -1,0 +1,19 @@
+Executable : D:\Antonio\sdk\cmake\3.18.1\bin\ninja.exe
+arguments : 
+-C
+D:\Antonio\androidApps\ProteccionAPP\Neurodevelopment.NeuroGer.MCI\app\.cxx\cmake\debug\arm64-v8a
+getglobalCDR
+getglobalCDR_initialize
+getglobalCDR_terminate
+histcounts
+ifWhileCond
+neuroger
+rtGetInf
+rtGetNaN
+rt_nonfinite
+sign
+sort1
+sortIdx
+sum
+jvmArgs : 
+

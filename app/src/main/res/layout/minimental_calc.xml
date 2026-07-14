@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        android:src="@color/primary" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="46dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <software.cneuro.neurogertheme.TextViewFont
+        android:id="@+id/textView2"
+        style="@style/SubjectCardTitleWhiteTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/card_label_math_attention"
+        app:myFont="Roboto-Thin_3.ttf"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+    <ImageButton
+        android:id="@+id/card_math_attention_help_icon"
+        style="@style/HelpIconWhiteStyle"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+    <RadioGroup
+        android:id="@+id/math_attention_radioGroup_test_selection"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView5"
+        app:layout_constraintLeft_toLeftOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="@+id/textView3">
+
+        <RadioButton
+            android:id="@+id/card_math_attention_rdb_1"
+            style="@style/RadioButtonInputStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/card_math_attention_rdb_2"
+            style="@style/RadioButtonInputStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="bottom" />
+    </RadioGroup>
+
+    <software.cneuro.neurogertheme.TextViewFont
+        android:id="@+id/textView3"
+        style="@style/SubjectCardTitleBlackTextStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/card_label_calc"
+        app:myFont="Roboto-Light_3.ttf"
+        app:layout_constraintRight_toRightOf="@+id/card_math_attention_help_icon"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        android:layout_marginStart="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/math_attention_radioGroup_test_selection"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintHorizontal_bias="0.75" />
+
+    <software.cneuro.neurogertheme.TextViewFont
+        android:id="@+id/textView5"
+        style="@style/SubjectCardTitleBlackTextStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:myFont="Roboto-Light_3.ttf"
+        app:layout_constraintLeft_toLeftOf="@+id/detail_card_3_container"
+        app:layout_constraintTop_toBottomOf="@+id/detail_card_3_container"
+        tools:text="TestView" />
+
+    <software.cneuro.neurogertheme.TextViewFont
+        android:id="@+id/textView4"
+        style="@style/SubjectCardTitleBlackTextStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:myFont="Roboto-Light_3.ttf"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/detail_card_3_container"
+        app:layout_constraintRight_toRightOf="@+id/card_math_attention_help_icon"
+        app:layout_constraintTop_toBottomOf="@+id/detail_card_3_container"
+        tools:text="@string/card_label_spelling_word" />
+
+    <LinearLayout
+        android:id="@+id/detail_card_3_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/accent"
+        android:orientation="vertical"
+        app:layout_constraintRight_toRightOf="@+id/card_math_attention_help_icon"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintLeft_toLeftOf="@+id/textView3" />
+
+    <software.cneuro.neurogertheme.EditTextFont
+        android:id="@+id/edit_word_spelling"
+        style="@style/EditTextStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:inputType="text"
+        android:padding="8dp"
+        app:myFont="Roboto-Light_3.ttf"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintLeft_toLeftOf="@+id/detail_card_3_container"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

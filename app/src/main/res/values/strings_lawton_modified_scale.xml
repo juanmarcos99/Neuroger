@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="card_lawton_title">Índice de Lawton y Brody</string>
+
+    <string name="lawton_help">A continuación usted le va a preguntar al paciente acerca de algunas cuestiones relacionadas con actividades instrumentadas de la vida diaria que se consideran importantes. Están divididas en ocho esferas (1. Capacidad para usar el teléfono, 2. Hacer compras, 3. Preparación de la comida, 4. Cuidado de la casa, 5. Lavado de la ropa, 6. Uso de medios de transporte, 7. Responsabilidad respecto a su medicación y 8. Manejo de sus asuntos económicos)
+\n\nUsted debe marcar solo una casilla por esfera, según corresponda.
+</string>
+
+    <string name="total_dependency">Dependencia total</string>
+    <string name="severe_dependency">Dependencia grave</string>
+    <string name="moderate_dependency">Dependencia moderada</string>
+    <string name="light_dependency">Dependencia ligera</string>
+    <string name="autonomous_female">Autónoma</string>
+    <string name="autonomous_male">Autónomo</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<software.cneuro.neurogertheme.TextViewFont xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_detail_text"
+    style="@style/EvaluationCardDetailTextStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:paddingEnd="@dimen/fragment_margin"
+    android:paddingLeft="@dimen/fragment_margin"
+    android:paddingRight="@dimen/fragment_margin"
+    android:text="@string/list_empty"
+    app:myFont="Roboto-Light_3.ttf" />

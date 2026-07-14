@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TEXT -->
+    <string name="card_psychofamily_title">Valoración sociofamiliar de Gijón</string>
+
+    <string name="psychofamily_help">
+        A continuación usted le va a preguntar al paciente acerca de algunas cuestiones relacionadas con su entorno psicosocial y familiar. Están divididas en tres esferas (1. Situación Familia, 2.Relaciones y contactos sociales, 3. Apoyos red social).
+\n\nUsted debe marcar solo una casilla por esfera, según corresponda.
+    </string>
+
+    <!-- EVALUATION -->
+    <string name="social_situation_ok">Buena situación social o bajo riesgo de institucionalización.</string>
+    <string name="social_situation_regular">Situación intermedia</string>
+    <string name="social_situation_at_risk">Deterioro social severo y alto riesgo de institucionalización.</string>
+</resources>

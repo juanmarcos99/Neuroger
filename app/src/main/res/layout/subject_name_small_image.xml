@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/subject_name_container"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/detail_simple_name_container_height"
+    android:background="@color/accent">
+
+    <ImageView
+        android:id="@+id/subject_detail_image"
+        android:layout_width="@dimen/detail_simple_name_container_height"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/cd_list_item_icon"
+        android:padding="10dp"
+        android:src="@drawable/ic_avatar_small" />
+
+    <software.cneuro.neurogertheme.TextViewFont
+        android:id="@+id/subject_detail_name"
+        style="@style/SubjectNameTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/subject_detail_image"
+        android:layout_toRightOf="@id/subject_detail_image"
+        android:ellipsize="end"
+        android:paddingEnd="16dp"
+        android:paddingRight="16dp"
+        android:singleLine="true"
+        android:text="@string/new_subject"
+        app:myFont="Roboto-Light_3.ttf" />
+
+</RelativeLayout>

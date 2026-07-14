@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<software.cneuro.neurogertheme.RadioButtonFont xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/radio_answer"
+    style="@style/RadioButtonQuestionnaireAnswerStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="4dp"
+    android:paddingTop="4dp"
+    app:myFont="Roboto-Thin_3.ttf"
+    tools:text="@string/list_item_text" />

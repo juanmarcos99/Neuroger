@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.input.evaluation.PhysicalPerformanceInputActivity">
+
+    <item
+        android:id="@+id/action_chronometer"
+        android:icon="@android:drawable/ic_lock_idle_alarm"
+        android:orderInCategory="99"
+        android:title="@string/action_chronometer"
+        app:showAsAction="ifRoom" />
+
+    <!--
+    <item
+        android:id="@+id/action_video"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:orderInCategory="100"
+        android:title="@string/action_video"
+        app:showAsAction="ifRoom" />
+     -->
+
+</menu>

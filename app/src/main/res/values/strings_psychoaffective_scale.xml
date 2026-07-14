@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TEXT -->
+    <string name="card_psychoaffective_title">Escala psicoafectiva del CITED</string>
+
+    <string name="psychoaffective_help">A continuación usted le va a preguntar al paciente acerca de algunas cuestiones relacionadas con su estado de ánimo, humor, calidad de sueño, entre otros aspectos de la esfera psicoafectiva. Debe contestar una de tres posibles respuestas (Siempre, A veces o Nunca).</string>
+
+    <!-- RESULT -->
+    <string name="result_without_psychoaffective_alteration">Sin alteración psicoafectiva</string>
+    <string name="result_with_psychoaffective_alteration">Con alteración psicoafectiva</string>
+
+</resources>

@@ -1,0 +1,32 @@
+// build.gradle (RAÍZ DEL PROYECTO)
+buildscript {
+    ext {
+        // Centralizamos versiones para que el módulo las use
+        supportLibraryVersion = '28.0.0'
+        gsonVersion = '2.10.1'
+        // Definir versión de NDK si la instalaste manualmente como hablamos antes
+        // ndkVersion = "26.1.10909125"
+        compileSdkVersion = 28
+        buildToolsVersion = "29.0.3"
+        minSdkVersion = 16
+        targetSdkVersion = 28
+        repositories {
+            google()
+            mavenCentral()
+        }
+        dependencies {
+            classpath 'com.android.tools.build:gradle:4.2.2'
+        }
+    }
+
+    allprojects {
+        repositories {
+            google()
+            mavenCentral()
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

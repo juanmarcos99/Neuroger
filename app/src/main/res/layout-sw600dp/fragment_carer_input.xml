@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <software.cneuro.neurogertheme.EditTextFont
+            android:id="@+id/edit_carer_name"
+            style="@style/EditTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/input_control_height"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:gravity="left|center_vertical"
+            android:hint="@string/edittext_name_hint"
+            android:inputType="textCapSentences|textPersonName"
+            android:singleLine="true"
+            app:myFont="Roboto-Light_3.ttf"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <software.cneuro.neurogertheme.EditTextFont
+            android:id="@+id/edit_carer_last_name"
+            style="@style/EditTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/input_control_height"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="@string/edittext_last_name_hint"
+            android:inputType="textCapSentences|textPersonName"
+            android:singleLine="true"
+            app:myFont="Roboto-Light_3.ttf"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_carer_name" />
+
+        <androidx.constraint.Guideline
+            android:id="@+id/guideline5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="148dp" />
+
+        <software.cneuro.neurogertheme.TextViewFont
+            android:id="@+id/textView15"
+            style="@style/SubjectCardTitleBlackTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/input_control_height"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center_vertical"
+            android:text="@string/label_age"
+            app:myFont="Roboto-Light_3.ttf"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/guideline5"
+            app:layout_constraintTop_toBottomOf="@+id/edit_carer_last_name" />
+
+        <software.cneuro.neurogertheme.EditTextFont
+            android:id="@+id/edit_carer_age"
+            style="@style/EditTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/input_control_height"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:inputType="number"
+            app:myFont="Roboto-Light_3.ttf"
+            app:layout_constraintHorizontal_bias="0.526"
+            app:layout_constraintLeft_toLeftOf="@+id/guideline5"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_carer_last_name" />
+
+        <software.cneuro.neurogertheme.TextViewFont
+            android:id="@+id/textView17"
+            style="@style/SubjectCardTitleBlackTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/input_control_height"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center_vertical"
+            android:text="@string/label_gender"
+            app:myFont="Roboto-Light_3.ttf"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/guideline5"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/input_control_height"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            app:layout_constraintLeft_toLeftOf="@+id/guideline5"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_carer_age">
+
+            <software.cneuro.neurogertheme.RadioButtonFont
+                android:id="@+id/rdb_female"
+                style="@style/RadioButtonInputStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/input_control_height"
+                android:layout_weight="1"
+                android:text="@string/rdb_gender_female"
+                app:myFont="Roboto-Light_3.ttf" />
+
+            <software.cneuro.neurogertheme.RadioButtonFont
+                android:id="@+id/rdb_male"
+                style="@style/RadioButtonInputStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/input_control_height"
+                android:layout_weight="1"
+                android:text="@string/rdb_gender_male"
+                app:myFont="Roboto-Light_3.ttf" />
+        </RadioGroup>
+
+        <androidx.constraint.Guideline
+            android:id="@+id/guideline6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="192dp" />
+
+        <software.cneuro.neurogertheme.TextViewFont
+            android:id="@+id/textView18"
+            style="@style/SubjectCardTitleBlackTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/input_control_height"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center_vertical"
+            android:text="@string/label_familiarity"
+            app:myFont="Roboto-Light_3.ttf"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/guideline6"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+        <Spinner
+            android:id="@+id/spinner_carer_familiarity"
+            style="@style/SpinnerInputStyle"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/input_control_height"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintLeft_toLeftOf="@+id/guideline6"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+        <software.cneuro.neurogertheme.TextViewFont
+            android:id="@+id/textView19"
+            style="@style/SubjectCardTitleBlackTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/input_control_height"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center_vertical"
+            android:text="@string/label_phone"
+            app:myFont="Roboto-Light_3.ttf"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/guideline6"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <software.cneuro.neurogertheme.EditTextFont
+            android:id="@+id/edit_carer_phone"
+            style="@style/EditTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/input_control_height"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:inputType="phone"
+            app:myFont="Roboto-Light_3.ttf"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="@+id/guideline6"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner_carer_familiarity" />
+
+    </androidx.constraint.ConstraintLayout>
+
+    <include
+        layout="@layout/action_btn_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

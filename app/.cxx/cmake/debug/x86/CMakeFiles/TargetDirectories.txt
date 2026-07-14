@@ -1,0 +1,15 @@
+D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86/CMakeFiles/rtGetNaN.dir
+D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86/CMakeFiles/getglobalCDR_initialize.dir
+D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86/CMakeFiles/neuroger.dir
+D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86/CMakeFiles/getglobalCDR_terminate.dir
+D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86/CMakeFiles/getglobalCDR.dir
+D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86/CMakeFiles/sort1.dir
+D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86/CMakeFiles/rt_nonfinite.dir
+D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86/CMakeFiles/sum.dir
+D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86/CMakeFiles/sign.dir
+D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86/CMakeFiles/sortIdx.dir
+D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86/CMakeFiles/rtGetInf.dir
+D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86/CMakeFiles/ifWhileCond.dir
+D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86/CMakeFiles/histcounts.dir
+D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
+D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir

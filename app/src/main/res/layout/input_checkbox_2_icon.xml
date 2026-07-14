@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+        android:id="@+id/card_help_icon"
+        style="@style/HelpIconRedStyle"
+        android:layout_width="@dimen/card_evaluation_help_image_height"
+        android:layout_height="@dimen/card_evaluation_help_image_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:contentDescription="@string/cd_list_item_icon" />
+
+    <ImageButton
+        android:id="@+id/card_image_help_icon"
+        style="@style/ImageHelpIconBlueStyle"
+        android:layout_width="@dimen/card_evaluation_help_image_height"
+        android:layout_height="@dimen/card_evaluation_help_image_height"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/card_evaluation_help_image_margin"
+        android:layout_marginRight="@dimen/card_evaluation_help_image_margin"
+        android:scaleType="centerInside"
+        android:layout_toLeftOf="@id/card_help_icon"
+        android:layout_toStartOf="@id/card_help_icon"
+        android:contentDescription="@string/cd_list_item_icon" />
+
+    <software.cneuro.neurogertheme.CheckBoxFont
+        android:id="@+id/card_input_cbx"
+        style="@style/CheckboxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="@dimen/rdb_input_margin_right"
+        android:layout_marginRight="@dimen/rdb_input_margin_right"
+        android:layout_toLeftOf="@id/card_image_help_icon"
+        android:layout_toStartOf="@id/card_image_help_icon"
+        android:text="@string/cbx_1"
+        app:myFont="Roboto-Light_3.ttf" />
+
+</RelativeLayout>

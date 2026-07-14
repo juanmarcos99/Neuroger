@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="warning_signs">
+        <item>Apatía</item>
+        <item>Irritabilidad</item>
+        <item>Hiperactividad y Agitación</item>
+        <item>Depresión</item>
+        <item>Agresividad</item>
+        <item>Ansiedad</item>
+        <item>Alucinaciones e ilusiones.</item>
+        <item>Alteración del pensamiento  y la percepción.</item>
+        <item>Alteraciones del sueño.</item>
+        <item>Desinhibición</item>
+        <item>Alteraciones del apetito.</item>
+        <item>Euforia</item>
+        <item>Hiperactividad motora.</item>
+        <item>Deterioro del lenguaje.</item>
+        <item>Pérdida o disminución auditiva</item>
+        <item>No reporta.</item>
+    </string-array>
+
+    <string-array name="warning_help">
+        <item>Falta de interés, motivación, sentimiento, emoción o preocupación.</item>
+        <item>Mal humor, cambios de humor rápidos no justificados, impaciencia, intolerancia.</item>
+        <item>Hiperactividad y Agitación</item>
+        <item>Tristeza, falta de esperanza, provocan malestar significativo o pérdida de funcionalidad,
+            Ideación suicida, sentimientos de soledad.</item>
+        <item>Cualquier conducta física o verbal que puede causar daño físico o moral; oposición o
+            , no justificadas, para recibir la ayuda necesaria.</item>
+        <item>Temor o sentimiento de pérdida de control excesivo o injustificado, expresado de forma verbal,
+            gestual o motora,</item>
+        <item>Percepciones distorsionadas (ilusiones) o falsas (alucinaciones), ya sea de tipo visual,
+            auditivo, olfatorio, gustativo, somático, u otra experiencia sensorial.</item>
+        <item>Creencias o narraciones erróneas o falsas Interpretaciones, delirios, fabulaciones.</item>
+        <item>Pérdida del ciclo sueño-vigilia fisiológico (hipersomnia, insomnio, inversión del ciclo, sueño fragmentado.</item>
+        <item>Falta de tacto social en el lenguaje, la expresión corporal u otras conductas.</item>
+        <item>Falta del impulso para la ingesta o Impulso elevado para la ingesta de todos o de algún tipo de alimento.</item>
+        <item>Humor anormalmente elevado o inapropiado.</item>
+        <item>Aumento de la deambulación o de otra actividad motora que no se explica por necesidades básicas.</item>
+        <item>Lenguaje retraído, laborioso, lento, evade el diálogo, sustitución de palabras por otras sin significado.</item>
+        <item>No presenta ninguna de los anteriores.</item>
+    </string-array>
+
+</resources>

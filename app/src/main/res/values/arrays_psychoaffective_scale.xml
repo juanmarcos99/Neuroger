@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="psychoaffective_questions">
+        <item>¿Se siente usted, con frecuencia, triste, melancólico, apesadumbrado? (tristeza)</item>>
+        <item>¿Siente que su vida está vacía? (pesimismo)</item>>
+        <item>¿Ha pensado alguna vez en quitarse la vida? (ideación suicida)</item>>
+        <item>¿Tiene usted problema con el sueño? ( trastorno del sueño)</item>>
+        <item>¿Se siente usted alterado o nervioso por cosas sin importancia? (t. nervioso)</item>
+        <item>¿Se siente usted, sin confianza o inseguro de sí mismo? (pérdida de autoconfianza)</item>
+        <item>¿Se disgusta o se irrita con facilidad? (irritabilidad)</item>
+    </string-array>
+
+    <!-- SCALES -->
+    <string-array name="psychoaffective_answer">
+        <item>Siempre</item>
+        <item>A veces</item>
+        <item>Nunca</item>
+    </string-array>
+
+    <string-array name="psychoaffective_sadness_scale">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="psychoaffective_pessimism_scale">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="psychoaffective_suicide_scale">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="psychoaffective_sleep_disorder_scale">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="psychoaffective_nervous_scale">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="psychoaffective_loss_self_confidence_scale">
+        <item>1</item>
+        <item>0.5</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="psychoaffective_irritability_scale">
+        <item>1</item>
+        <item>0.5</item>
+        <item>0</item>
+    </string-array>
+</resources>

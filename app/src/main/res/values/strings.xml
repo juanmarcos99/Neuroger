@@ -1,0 +1,255 @@
+<resources>
+    <string name="app_name">NeuroGer Pesquisa MCI</string>
+
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_base_large">BaseActivity</string>
+    <!-- Licencia -->
+    <string name="tv_title_main">NEUROGER PESQUISA</string>
+
+    <string name="username_hint">Usuario</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="license_code_hint">Pegue aquí el código o use Cargar .neu</string>
+    <string name="status_box_label">ESTADO DEL SISTEMA / HUELLA</string>
+
+    <string name="btn_export_huella">Exportar Huella</string>
+    <string name="btn_cargar_neu">Cargar .NEU</string>
+    <string name="btn_validar_init">VALIDAR LICENCIA</string>
+    <string name="btn_validar_ok">VALIDADA</string>
+    <string name="btn_entrar_app">ENTRAR A PESQUISA</string>
+
+    <string name="error_device_changed">ADVERTENCIA: Cambio de dispositivo detectado.</string>
+    <string name="error_date_tampering">ADVERTENCIA: Cambio de fecha detectado.</string>
+    <string name="error_invalid_unlock_format">Formato de código no válido.</string>
+    <string name="error_not_right_device">- Dispositivo no coincide.</string>
+    <string name="error_not_right_user_or_expired">- Usuario/Pass o Fecha inválida.</string>
+    <string name="error_app_blocked">- Bloqueo de licencia detectado.</string>
+    <!-- APP -->
+    <string name="title_activity_home">Pacientes</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_subject_input">Nuevo</string>
+    <string name="title_activity_carer_input">Nuevo cuidador o conviviente</string>
+    <string name="title_activity_subject_edit">Editar</string>
+    <string name="title_activity_subject_general_detail">Paciente</string>
+    <string name="title_activity_carer_card_detail">Detalles del cuidador o conviviente</string>
+    <string name="title_activity_subject_detail">Detalles del paciente</string>
+    <string name="title_activity_physical_performance">Desempeño físico</string>
+    <string name="title_activity_physical_performance_detail">Desempeño físico</string>
+    <string name="title_activity_pathological_antecedents_input">Índice de comorbilidad de Charlson</string>
+    <string name="title_activity_pathological_antecedents_detail">
+        Índice de comorbilidad de Charlson
+    </string>
+    <string name="title_activity_pathological_antecedents_edit">Editar antecedentes patológicos personales</string>
+    <string name="title_activity_subjective_evaluation">Autopercepción de salud</string>
+    <string name="title_activity_mini_mental_state_input">Miniexamen cognitivo del estado mental - MMSE</string>
+    <string name="title_activity_mini_mental_state_detail">Miniexamen cognitivo del estado mental - MMSE</string>
+    <string name="title_activity_frail_input">Escala de FRAIL</string>
+    <string name="title_activity_frail_detail">Escala de FRAIL</string>
+
+    <string name="title_activity_questionary_pager">Cuestionario</string>
+    <string name="title_activity_questionary_cdr">Escala clínica para la demencia - CDR</string>
+    <string name="title_activity_questionary_pfeiffer">Cuestionario de actividad funcional de Pfeiffer - FAQ</string>
+    <string name="title_activity_questionary_warning_signs">Signos de alerta para el deterioro cognitivo y las demencias</string>
+    <string name="title_activity_questionary_geriatric">Escala geriátrica para la depresión de Yesavage</string>
+    <string name="title_activity_questionary_hhies">Pesquisa para la discapacidad auditiva en el adulto mayor - HHIE-S</string>
+    <string name="title_activity_questionary_katz">Índice de Katz de actividades de la vida diaria</string>
+    <string name="title_activity_questionary_lawton">Escala de Lawton y Brody para las actividades instrumentales de la vida diaria</string>
+
+    <string name="in_risk">En riesgo</string>
+    <string name="healthy">Robusto</string>
+
+    <!-- CARD TITLE -->
+    <string name="card_classification_title">Clasificación</string>
+    <string name="card_cognitive_performance_title">Desempeño cognitivo</string>
+
+    <!-- MENU -->
+    <string name="action_save">Save</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete_list">Delete</string>
+    <string name="action_chronometer">Cronómetro</string>
+    <string name="action_video">Video</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_export">Exportar datos</string>
+    <string name="action_help">Ayuda</string>
+
+    <!-- TOAST -->
+    <string name="toast_intent_no_available">No tiene instalada la aplicación a la cual intenta acceder</string>
+
+    <string name="toast_save_subject">El paciente se ha insertado correctamente</string>
+    <string name="toast_update_subject">El paciente se ha actualizado correctamente</string>
+    <string name="toast_save_carer">El cuidador se ha insertado correctamente</string>
+    <string name="toast_update_carer">El cuidador se ha actualizado correctamente</string>
+    <string name="toast_delete_subject">El paciente se ha eliminado correctamente</string>
+    <string name="toast_saved_test">La prueba se ha guardado correctamente</string>
+    <string name="toast_saved_pathological_antecedents">Los antecedentes se han guardado correctamente</string>
+    <string name="toast_invalid_value">El valor del campo no puede estar vacío</string>
+    <string name="toast_id_invalid_value">Deben ser 11 dígitos</string>
+    <string name="toast_empty_field">Llene todos los datos necesarios</string>
+    <string name="toast_data_exported">Los datos han sido exportados correctamente.</string>
+    <string name="toast_data_no_exported">Los datos no se han podido exportar.</string>
+    <string name="toast_subject_deleted">Se han eliminado satisfactoriamente.</string>
+    <string name="toast_subject_no_deleted">No se han podido eliminar.</string>
+
+    <string name="toast_permission_storage">Necesita conceder permisos para guardar los datos recogidos.</string>
+
+    <!-- DIALOG -->
+    <string name="dialog_ask_before_leaving_title">Salir</string>
+    <string name="dialog_ask_before_leaving_message">¿Seguro que desea salir?</string>
+
+    <string name="dialog_ask_before_deleting_title">Eliminar</string>
+    <string name="dialog_ask_before_deleting_message">Se borrarán los elementos seleccionados</string>
+
+    <string name="dialog_add_new_title">Nuevo</string>
+
+    <string name="dialog_help_title">Ayuda</string>
+    <string name="dialog_image_help_title">Imagen</string>
+
+    <string name="dialog_subject_exist">Sujeto</string>
+    <string name="dialog_subject_exist_message">Ya existe un sujeto con ese mismo número de carnet de identidad.</string>
+
+    <string name="dialog_missing_answer_message">Faltan preguntas por contestar.</string>
+    <string name="dialog_dont_report_message">Debe seleccionar al menos una opción en el 3er acápite.</string>
+
+    <string name="dialog_antecedents_error_message">
+        Los datos serán guardados con la etiqueta \u003cNo reporta\u003e. Para confirmar esta información seleccione Guardar, de lo contrario seleccione Cancelar e introduzca la información necesaria.
+    </string>
+    <string name="dialog_antecedents_compensated_title">Selección</string>
+    <string name="dialog_antecedents_no_compensated_option">¿A pesar de presentar estos antecedentes la persona sigue compensada?</string>
+
+    <string name="dialog_ci_birth_mismatch_title">No coincidencia</string>
+    <string name="dialog_ci_birth_mismatch_message">El número del carnet de identidad no coincide con la fecha de nacimiento seleccionada. ¿Desea mantener estos valores?</string>
+
+    <!-- ACTION MODE -->
+    <string name="action_mode_selection">seleccionados</string>
+    <string name="hello_world">Hello world!</string>
+
+    <plurals name="results">
+        <item quantity="zero">resultados</item>
+        <item quantity="one">%d  resultado</item>
+        <item quantity="other">%d  resultados</item>
+    </plurals>
+
+    <plurals name="scores">
+        <item quantity="zero">puntos</item>
+        <item quantity="one">%d  punto</item>
+        <item quantity="other">%d  puntos</item>
+    </plurals>
+
+    <string name="result">Resultado</string>
+
+    <!-- ANTECEDENTS -->
+    <string name="compensated">Compensado</string>
+    <string name="not_compensated">No compensado</string>
+
+    <!-- QUESTIONNAIRE -->
+    <string name="questionary_answer_1">Excelente</string>
+    <string name="questionary_answer_2">Muy Buena</string>
+    <string name="questionary_answer_3">Buena</string>
+    <string name="questionary_answer_4">Regular</string>
+    <string name="questionary_answer_5">Mala</string>
+
+    <!-- SEARCH -->
+    <string name="label_cbx_age_group">Grupo de edades:</string>
+
+    <!-- SUBJECT AND CARER EDIT TEXT -->
+    <string name="patient">Paciente</string>
+
+    <string name="edittext_search_by_name_hint">Nombre</string>
+
+    <string name="edittext_name_hint">Nombre</string>
+    <string name="edittext_last_name_hint">Apellidos</string>
+    <string name="edittext_id_hint">CI</string>
+
+    <string name="editText_profession_hint">Sin profesión</string>
+
+    <!-- SUBJECT AND CARER TEXT -->
+    <string name="new_subject">Nuevo Paciente</string>
+    <string name="new_carer">Nuevo cuidador o conviviente</string>
+
+    <string name="label_name">Nombre</string>
+    <string name="label_lastName">Apellidos</string>
+    <string name="label_ci">CI</string>
+    <string name="label_code">Código</string>
+    <string name="label_birth">Nacimiento</string>
+    <string name="label_skin_color">Piel</string>
+    <string name="label_gender">Sexo</string>
+    <string name="label_study_years">Nivel de escolaridad</string>
+    <string name="label_occupation">Ocupación</string>
+    <string name="label_profession">Profesión</string>
+    <string name="label_civil_status">Estado civil</string>
+    <string name="label_coexistence">Convivencia</string>
+    <string name="label_hospital">Institución</string>
+    <string name="label_origin">Procedencia</string>
+    <string name="label_clinic_classification">Clasificación clínica</string>
+    <string name="label_province">Provincia</string>
+    <string name="label_municipality">Municipio</string>
+    <string name="label_address">Dirección</string>
+    <string name="label_phone">Teléfono</string>
+    <string name="label_age">Edad</string>
+    <string name="label_familiarity">Familiaridad</string>
+    <string name="label_country">País</string>
+    <string name="label_creation_date">Fecha de creación</string>
+
+    <string name="label_compensated">Compensado:</string>
+
+    <!-- CARDS -->
+    <string name="card_pfeiffer_title">Cuestionario de actividad funcional</string>
+    <string name="card_label_subject_title">Datos paciente</string>
+    <string name="card_label_carer_title">Datos cuidador o conviviente</string>
+    <string name="card_label_pathological_antecedents_title">Antecedentes Patológicos</string>
+    <string name="card_label_code">Código:</string>
+    <string name="card_label_phone">Teléf:</string>
+    <string name="card_label_age">Edad:</string>
+    <string name="card_label_birth">Nació:</string>
+    <string name="card_label_gender">Sexo:</string>
+
+    <string name="label_age_suffix">años</string>
+
+    <string name="province_default">La Habana</string>
+
+    <!-- SUBJECT AND CARER RADIOBUTTON -->
+    <string name="rdb_gender_female">Femenino</string>
+    <string name="rdb_gender_male">Masculino</string>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Nullam vulputate mauris sed turpis pretium tristique. Nunc luctus cursus magna sit amet sollicitudin.
+        Vivamus ex sapien, mollis sed gravida ut, bibendum sed turpis. In semper lectus nunc, quis malesuada dui maximus a.
+        Nam pulvinar lobortis eros, non cursus ligula gravida ut. Donec nec ex tristique, pellentesque ex in, hendrerit est.
+        Donec ut tellus luctus, sagittis neque eu, fringilla urna. Fusce et ex quis lorem luctus tempor venenatis nec metus.</string>
+    <string name="card_label_patient">Paciente</string>
+    <string name="card_label_carer">Cuidador</string>
+    <string name="cd_patient_details">Detalles paciente</string>
+    <string name="title_activity_cognitive_evaluation">Evaluación cognitiva</string>
+    <string name="title_activity_subject_classification">Clasificación</string>
+    <string name="alert">Alerta</string>
+    <string name="title_activity_questionary_psychofamily">Escala de valoración psicofamiliar de Gijón</string>
+    <string name="title_activity_questionary_psychoaffective">Escala psicoafectiva</string>
+    <string name="medication_quantity_specification">Marque la opción solo si enumera más de 5</string>
+    <string name="takes_more_than_5_medicine">Toma más de 5 medicamentos</string>
+    <string name="card_label_medication_quantity">Pídale al paciente que enumere los medicamentos que toma</string>
+    <string name="medication">Medicamentos</string>
+    <string name="dialog_check_test_before_leaving_title">Verificación de los datos</string>
+    <string name="dialog_check_test_before_leaving_message">Asegúrese de que no existan errores en la información que acaba de registrar \n\n¿Seguro que desea guardar esta información?</string>
+    <string name="general_classification">Clasificación general</string>
+
+    <!-- EXCEL EXPORT -->
+    <string name="sheet_name_patients">Pacientes</string>
+    <string name="sheet_name_comorbidity_medication">Comorbilidad-Medicamentos</string>
+    <string name="comorbidity">Comorbilidad</string>
+    <string name="evaluation">Evaluación</string>
+    <string name="question">Pregunta</string>
+    <string name="general_score">Puntaje total</string>
+    <string name="general_evaluation">Evaluación total</string>
+    <string name="math">Cálculo</string>
+    <string name="spelling">Deletrear</string>
+    <string name="health_state">Estado de salud</string>
+    <string name="past_memory">Memoria respecto al pasado</string>
+    <string name="difficulties">Dificultades</string>
+    <string name="toast_permission_read_phone_state">Para saber si su dispositivo tiene permiso para usar esta aplicación, tiene que conceder permisos a la aplicación para realizar y gestionar llamadas telefónicas.</string>
+    <string name="toast_dont_have_permission_to_use_app">No tiene permiso para usar esta aplicación.</string>
+    <string name="about_the_app">\u00A9 2023, NEUROGER PESQUISA, \nNEURONIC-G-SW-1.1-1, Abril 2023. Todos los derechos reservados. \nCNEURO. Calle 190 No. 19818 e/ Ave. 25 y 27, Playa, La Habana. \nTeléfono: (+53) 7 263 7100\nEmail: soportetecnico@cneuro.edu.cu</string>
+    <string name="logo">Logo</string>
+    <string name="action_about">Acerca de</string>
+    <string name="title_activity_about">Acerca de</string>
+    <string name="error_device_not_allowed">"Su dispositivo no tiene permiso para usar esta aplicación. "</string>
+    <string name="toast_invalid_ci_value">El número de identidad no es válido</string>
+</resources>

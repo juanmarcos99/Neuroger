@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="software.cneuro.neuroger">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- Añadido para compatibilidad con lectura en algunas versiones -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".HomeApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <!-- 🔐 LicenseActivity: Puerta de entrada principal -->
+        <activity
+            android:name="com.aess.licenciaapp.LicenseActivity"
+            android:exported="true"
+            android:theme="@style/Theme.LicenciaApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 🔄 SplashActivity -->
+        <activity
+            android:name=".ui.SplashActivity"
+            android:exported="false" />
+
+        <!-- Resto de actividades -->
+        <activity android:name=".ui.HomeActivity" android:label="@string/title_activity_home" android:screenOrientation="portrait" />
+        <activity android:name=".ui.about.AboutActivity" android:label="@string/title_activity_about" />
+        <activity android:name=".ui.detail.BaseDetailActivity" android:label="@string/title_activity_home" />
+        <activity android:name=".ui.input.subject.SubjectAddEditActivity" android:label="@string/title_activity_subject_input" />
+        <activity android:name=".ui.input.carer.CarerAddEditActivity" android:label="@string/title_activity_carer_input" />
+        <activity android:name=".ui.SubjectClassificationActivity" android:label="@string/title_activity_subject_classification" />
+        <activity android:name=".ui.CognitiveEvaluationActivity" android:label="@string/title_activity_cognitive_evaluation" />
+        <activity android:name=".ui.SubjectGeneralEvaluationActivity" android:label="@string/title_activity_subject_general_detail" />
+        <activity android:name=".ui.input.evaluation.BaseInputActivity" android:label="@string/title_activity_subject_general_detail" />
+        <activity android:name=".ui.input.evaluation.PhysicalPerformanceInputActivity" android:label="@string/title_activity_physical_performance" />
+
+        <activity android:name=".ui.input.evaluation.PathologicalAntecedentsEditActivity" android:label="@string/title_activity_pathological_antecedents_edit">
+            <meta-data
+                android:name="androidx.PARENT_ACTIVITY"
+                android:value="software.cneuro.neuroger.ui.SubjectGeneralEvaluationActivity" />
+        </activity>
+
+        <activity
+            android:name=".ui.input.evaluation.StimulusImageActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+
+        <activity android:name=".ui.input.questionnaire.QuestionnairePagerActivity" android:label="@string/title_activity_questionary_pager">
+            <meta-data
+                android:name="androidx.PARENT_ACTIVITY"
+                android:value="software.cneuro.neuroger.ui.SubjectGeneralEvaluationActivity" />
+        </activity>
+
+        <!-- 📁 FILE PROVIDER -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <!-- ContentProvider de base de datos -->
+        <provider
+            android:name="software.cneuro.neurogerdatabase.database.NeurogerContentProvider"
+            android:authorities="software.cneuro.neuroger.provider"
+            android:exported="false" />
+
+        <!-- SERVICES -->
+        <service android:name=".service.SubjectDeleteIntentService" android:exported="false" />
+        <service android:name=".service.JsonExportIntentService" android:exported="false" />
+        <service android:name=".service.ExcelExportIntentService" android:exported="false" />
+
+        <!-- RECEIVERS -->
+        <receiver
+            android:name=".service.SubjectDeleteResponseReceiver"
+            android:enabled="true" />
+    </application>
+
+</manifest>

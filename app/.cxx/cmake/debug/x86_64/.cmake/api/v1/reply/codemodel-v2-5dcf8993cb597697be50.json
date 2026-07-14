@@ -1,0 +1,167 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "neuroger",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "getglobalCDR::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-getglobalCDR-Debug-275e10255b994d10706d.json",
+					"name" : "getglobalCDR",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "getglobalCDR_initialize::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-getglobalCDR_initialize-Debug-b90a0e8f729abaa8bc34.json",
+					"name" : "getglobalCDR_initialize",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "getglobalCDR_terminate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-getglobalCDR_terminate-Debug-bce427429d6d2c0ac976.json",
+					"name" : "getglobalCDR_terminate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "histcounts::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-histcounts-Debug-a13edaa9b368b6dee605.json",
+					"name" : "histcounts",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ifWhileCond::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ifWhileCond-Debug-0a8be957fcb274e76848.json",
+					"name" : "ifWhileCond",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "neuroger::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-neuroger-Debug-5fb1aaa881268b2a63fd.json",
+					"name" : "neuroger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtGetInf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtGetInf-Debug-06eeb3e4ed8508437fba.json",
+					"name" : "rtGetInf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtGetNaN::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtGetNaN-Debug-5ab93bf8765c3e092d22.json",
+					"name" : "rtGetNaN",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rt_nonfinite::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rt_nonfinite-Debug-410f6e2998fb2b13e6d8.json",
+					"name" : "rt_nonfinite",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sign::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sign-Debug-39851569055879f1aa6d.json",
+					"name" : "sign",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sort1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sort1-Debug-0cd1791f9ae1934af29c.json",
+					"name" : "sort1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sortIdx::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sortIdx-Debug-bae9391ee0fdf1054622.json",
+					"name" : "sortIdx",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sum-Debug-dd535505520912b6da13.json",
+					"name" : "sum",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86_64",
+		"source" : "D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

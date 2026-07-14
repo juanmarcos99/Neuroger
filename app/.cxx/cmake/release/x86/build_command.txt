@@ -1,0 +1,24 @@
+                    Executable : D:\Antonio\sdk\cmake\3.18.1\bin\cmake.exe
+arguments : 
+-HD:\Antonio\androidApps\ProteccionAPP\Neurodevelopment.NeuroGer.MCI\app\src\main\cpp
+-DCMAKE_FIND_ROOT_PATH=D:\Antonio\androidApps\ProteccionAPP\Neurodevelopment.NeuroGer.MCI\app\.cxx\cmake\release\prefab\x86\prefab
+-DCMAKE_BUILD_TYPE=Release
+-DCMAKE_TOOLCHAIN_FILE=D:\Antonio\sdk\ndk\21.4.7075529\build\cmake\android.toolchain.cmake
+-DANDROID_ABI=x86
+-DANDROID_NDK=D:\Antonio\sdk\ndk\21.4.7075529
+-DANDROID_PLATFORM=android-21
+-DCMAKE_ANDROID_ARCH_ABI=x86
+-DCMAKE_ANDROID_NDK=D:\Antonio\sdk\ndk\21.4.7075529
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\Antonio\androidApps\ProteccionAPP\Neurodevelopment.NeuroGer.MCI\app\build\intermediates\cmake\release\obj\x86
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=D:\Antonio\androidApps\ProteccionAPP\Neurodevelopment.NeuroGer.MCI\app\build\intermediates\cmake\release\obj\x86
+-DCMAKE_MAKE_PROGRAM=D:\Antonio\sdk\cmake\3.18.1\bin\ninja.exe
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_SYSTEM_VERSION=21
+-BD:\Antonio\androidApps\ProteccionAPP\Neurodevelopment.NeuroGer.MCI\app\.cxx\cmake\release\x86
+-GNinja
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 1

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="temporal_orientation">
+        <item>Día</item>
+        <item>Mes</item>
+        <item>Año</item>
+        <item>Día de la semana</item>
+        <item>Estación</item>
+    </string-array>
+
+    <string-array name="spatial_orientation">
+        <item>Lugar donde está ahora</item>
+        <item>Piso</item>
+        <item>Municipio</item>
+        <item>Provincia</item>
+        <item>País</item>
+    </string-array>
+
+    <string-array name="retention_and_info">
+        <item>Pelota</item>
+        <item>Bandera</item>
+        <item>Árbol</item>
+    </string-array>
+
+    <string-array name="math_and_attention">
+        <item>Cálculo 1</item>
+        <item>Cálculo 2</item>
+        <item>Cálculo 3</item>
+        <item>Cálculo 4</item>
+        <item>Cálculo 5</item>
+    </string-array>
+
+    <string-array name="language">
+        <item>Reloj</item>
+        <item>Lápiz</item>
+        <item>Frase</item>
+        <item>Leer y obedecer</item>
+        <item>Escritura</item>
+    </string-array>
+
+    <string-array name="order_in_3">
+        <item>Orden 1</item>
+        <item>Orden 2</item>
+        <item>Orden 3</item>
+    </string-array>
+
+    <string-array name="reminder">
+        <item>Pelota</item>
+        <item>Bandera</item>
+        <item>Árbol</item>
+    </string-array>
+
+    <string-array name="design">
+        <item>Cumple</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- PHYSICAL EVALUATION TEXT -->
+    <string name="card_physical_performance_title">Desempeño físico</string>
+
+    <string name="card_test_completed">Realizado</string>
+
+    <string name="card_label_imc">IMC</string>
+    <string name="card_label_march">Marcha</string>
+    <string name="card_label_static_balance">Equilibrio estático</string>
+    <string name="card_label_speed_squat">Levantarse de la silla</string>
+    <string name="card_label_grip_strength">Fuerza de agarre</string>
+
+    <string name="card_label_imc_large">Índice de masa corporal</string>
+    <string name="card_label_velocity">Velocidad</string>
+    <string name="card_label_amplitude">Amplitud</string>
+    <string name="card_label_frequency">Cadencia</string>
+    <string name="result_default_value">0</string>
+
+    <string name="card_label_cbx_parallel_feet">Pies paralelos</string>
+    <string name="card_label_cbx_semi_tandem_position">Posición Semi-Tándem</string>
+    <string name="card_label_cbx_tandem_position">Posición Tándem</string>
+
+    <string name="card_label_speed_squat_quantity_small">5 Reps.</string>
+    <string name="card_label_speed_squat_quantity">5 Repeticiones</string>
+    <string name="card_label_speed_squat_count">Total realizadas</string>
+
+    <string name="card_label_left_hand_1">Izquierdo 1</string>
+    <string name="card_label_left_hand_2">Izquierdo 2</string>
+    <string name="card_label_right_hand_1">Derecho 1</string>
+    <string name="card_label_right_hand_2">Derecho 2</string>
+    <string name="card_detail_time">Tiempo</string>
+
+    <string name="card_label_better_right_grip_strength">Mejor registro mano derecha</string>
+    <string name="card_label_better_left_grip_strength">Mejor registro mano izquierda</string>
+
+    <string name="card_label_score">Puntaje</string>
+    <string name="card_label_score_small">Ptos</string>
+
+    <!-- PHYSICAL EVALUATION EDITTEXT -->
+    <string name="edittext_size_hint">Talla (m)</string>
+    <string name="edittext_weight_hint">Peso (kg)</string>
+    <string name="edittext_time_hint">Tiempo (s)</string>
+    <string name="edittext_time_small_hint">T (s)</string>
+    <string name="edittext_measure_hint">Kgf</string>
+    <string name="edittext_steps_hint">Pasos</string>
+    <string name="edittext_squad_count_hint">No.</string>
+
+    <!-- PHYSICAL EVALUATION HELP -->
+    <string name="dialog_help_evaluation_title">Ayuda</string>
+
+    <string name="imc_help">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+        euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+        quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+    </string>
+    <string name="march_help">El análisis se realizará en el recorrido de 4 metros que el adulto mayor debe caminar
+        a su paso normal. Se medirá con el cronómetro el tiempo en que  complete la distancia y se contará además,
+        la cantidad de pasos que utilizó para cubrir esa distancia.
+        El cronómetro debe activarse cuando el centro de gravedad del adulto mayor haya sobrepasado la
+        línea de los 4 metros y y debe detenerse cuando haya vencido la línea final de estos cuatro metros,
+        este resultado en segundos se anotará en la casilla TIEMPO en la pantalla.
+        Se contarán los pasos completos que el adulto mayor utilice para completar la distancia y se anotará en la casilla PASO.</string>
+    <string name="static_balance_help">En la prueba del Equilibrio Estático el adulto mayor debe ser
+        capaz de ponerse de pie sin ser ayudado con el uso de un bastón o un caminador en 3 posiciones.
+        Se activará la casilla de cada posición en la pantalla si es capaz de mantenerse durante
+        los 10 segundos las posiciones.
+    </string>
+    <string name="squad_help">En la prueba levantarse de la silla el adulto mayor debe levantarse y sentarse
+        en la silla, sin el uso de los brazos, en 5 ocasiones.
+        Con el cronómetro, se medirá el tiempo en segundos que invierte para levantarse y sentarse en la
+        silla las 5 veces exitosamente, si lo logra se activa la casilla y se anota el tiempo.
+    </string>
+    <string name="grip_strength_help">Se realiza  utilizando un Dinamómetro y se evaluará con los adultos
+        mayores sentados con el brazo apoyado sobre una superficie, preferiblemente una mesa.
+        Se anotarán los cuatro intentos, dos con cada mano.
+    </string>
+
+    <!-- PHYSICAL EVALUATION MEASUREMENT UNIT -->
+    <string name="size_measurement_unit">m</string>
+    <string name="weight_measurement_unit">kg</string>
+    <string name="velocity_measurement_unit">m/s</string>
+    <string name="amplitude_measurement_unit">cm</string>
+    <string name="frequency_measurement_unit">pasos/min</string>
+    <string name="time_measurement_unit">s</string>
+    <string name="grip_strength_measurement_unit">Kgf</string>
+    <string name="score_unit">puntos</string>
+
+    <string name="result_ok">Bien</string>
+    <string name="result_regular">Regular</string>
+    <string name="result_negative">Mal</string>
+    <string name="valid">Válido</string>
+    <string name="failure">Fallo</string>
+
+    <string name="malnourished">Desnutrido</string>
+    <string name="obese">Obeso</string>
+    <string name="overweight">Sobrepeso</string>
+    <string name="normo_weight">Normo peso</string>
+
+</resources>

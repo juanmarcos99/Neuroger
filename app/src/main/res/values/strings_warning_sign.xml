@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+     <string name="card_warning_sing_title">Signos de alerta</string>
+
+     <string name="warning_sing_title">¿Ha observado algunas de estas conductas o situaciones en el anciano?</string>
+
+     <string name="warning_sign_help">A continuación le voy a leer una serie de comportamientos que suelen aparecer tempranamente en las demencias. Usted debe decirme si identifica alguno de ellos  en la conducta de su familiar o anciano a su cuidado.\n\n
+Nota: El especialista debe  marcar según corresponda con el reporte del cuidador o conviviente. Si el cuidador o conviviente  no reporta ninguno de los comportamientos mencionados, en ese caso el especialista debe seleccionar la opción No reporta.
+</string>
+
+</resources>

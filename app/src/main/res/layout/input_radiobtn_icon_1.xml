@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <software.cneuro.neurogertheme.TextViewFont
+        android:id="@+id/textView"
+        style="@style/SubjectCardTitleBlackTextStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        app:myFont="Roboto-Light_3.ttf"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="20dp"
+        app:layout_constraintHorizontal_bias="0.84" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.41682974"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="106dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="160dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <RadioGroup
+        android:id="@+id/subject_radiogroup_gender"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline7"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/guideline8"
+        app:layout_constraintVertical_bias="0.0">
+
+        <software.cneuro.neurogertheme.RadioButtonFont
+            android:id="@+id/radioButton3"
+            style="@style/RadioButtonInputStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            app:myFont="Roboto-Light_3.ttf" />
+
+        <software.cneuro.neurogertheme.RadioButtonFont
+            android:id="@+id/radioButton4"
+            style="@style/RadioButtonInputStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            app:myFont="Roboto-Light_3.ttf" />
+
+        <software.cneuro.neurogertheme.RadioButtonFont
+            android:id="@+id/radioButton2"
+            style="@style/RadioButtonInputStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            app:myFont="Roboto-Light_3.ttf" />
+    </RadioGroup>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="239dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="82dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        style="@style/HelpIconRedStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        style="@style/HelpIconRedStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline4" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        style="@style/HelpIconRedStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

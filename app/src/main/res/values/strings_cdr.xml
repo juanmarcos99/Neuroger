@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TEXT -->
+    <string name="card_cdr_title">Escala clínica demencia</string>
+
+    <string name="card_label_memory">Memoria</string>
+    <string name="card_label_cdr_orientation">Orientación</string>
+    <string name="card_label_judgment_solution">Juicio y solución de problemas</string>
+    <string name="card_label_community_function">Función en la comunidad</string>
+    <string name="card_label_home_hobbies">Hogar y pasatiempos</string>
+    <string name="card_label_personal_care">Cuidado personal</string>
+
+    <!-- EVALUATION -->
+    <string name="cdr_result_0">Saludable</string>
+    <string name="cdr_result_0_5">Demencia cuestionable</string>
+    <string name="cdr_result_1">Demencia Ligera</string>
+    <string name="cdr_result_2">Demencia Moderada</string>
+    <string name="cdr_result_3">Demencia Severa</string>
+
+</resources>

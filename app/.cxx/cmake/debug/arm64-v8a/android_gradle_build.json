@@ -1,0 +1,179 @@
+{
+  "buildFiles": [
+    "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "D:\\Antonio\\sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+      "-C",
+      "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\.cxx\\cmake\\debug\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "D:\\Antonio\\sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-C",
+    "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\.cxx\\cmake\\debug\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "getglobalCDR::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "getglobalCDR",
+      "output": "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libgetglobalCDR.so",
+      "runtimeFiles": [
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libifWhileCond.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libsum.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libsort1.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libsign.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libhistcounts.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libsortIdx.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librt_nonfinite.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librtGetNaN.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librtGetInf.so"
+      ]
+    },
+    "getglobalCDR_initialize::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "getglobalCDR_initialize",
+      "output": "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libgetglobalCDR_initialize.so",
+      "runtimeFiles": [
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librt_nonfinite.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librtGetNaN.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librtGetInf.so"
+      ]
+    },
+    "getglobalCDR_terminate::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "getglobalCDR_terminate",
+      "output": "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libgetglobalCDR_terminate.so",
+      "runtimeFiles": []
+    },
+    "histcounts::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "histcounts",
+      "output": "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libhistcounts.so",
+      "runtimeFiles": [
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librt_nonfinite.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librtGetNaN.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librtGetInf.so"
+      ]
+    },
+    "ifWhileCond::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ifWhileCond",
+      "output": "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libifWhileCond.so",
+      "runtimeFiles": [
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librt_nonfinite.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librtGetNaN.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librtGetInf.so"
+      ]
+    },
+    "neuroger::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "neuroger",
+      "output": "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libneuroger.so",
+      "runtimeFiles": [
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libgetglobalCDR.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libgetglobalCDR_initialize.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libgetglobalCDR_terminate.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libifWhileCond.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libsum.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libsort1.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libsortIdx.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libsign.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libhistcounts.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librt_nonfinite.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librtGetNaN.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librtGetInf.so"
+      ]
+    },
+    "rtGetInf::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "rtGetInf",
+      "output": "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librtGetInf.so",
+      "runtimeFiles": []
+    },
+    "rtGetNaN::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "rtGetNaN",
+      "output": "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librtGetNaN.so",
+      "runtimeFiles": []
+    },
+    "rt_nonfinite::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "rt_nonfinite",
+      "output": "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librt_nonfinite.so",
+      "runtimeFiles": [
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librtGetNaN.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librtGetInf.so"
+      ]
+    },
+    "sign::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "sign",
+      "output": "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libsign.so",
+      "runtimeFiles": [
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librt_nonfinite.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librtGetNaN.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librtGetInf.so"
+      ]
+    },
+    "sort1::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "sort1",
+      "output": "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libsort1.so",
+      "runtimeFiles": [
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libsortIdx.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librt_nonfinite.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librtGetNaN.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librtGetInf.so"
+      ]
+    },
+    "sortIdx::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "sortIdx",
+      "output": "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libsortIdx.so",
+      "runtimeFiles": [
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librt_nonfinite.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librtGetNaN.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librtGetInf.so"
+      ]
+    },
+    "sum::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "sum",
+      "output": "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libsum.so",
+      "runtimeFiles": [
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librt_nonfinite.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librtGetNaN.so",
+        "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\librtGetInf.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "D:\\Antonio\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "D:\\Antonio\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

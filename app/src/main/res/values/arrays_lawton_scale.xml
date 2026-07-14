@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lawton_tests">
+        <item>Capacidad para usar el teléfono</item>
+        <item>Hacer compras</item>
+        <item>Preparación de la comida</item>
+        <item>Cuidado de la casa</item>
+        <item>Lavado de la ropa</item>
+        <item>Uso de medios de transporte</item>
+        <item>Responsabilidad respecto a su medicación</item>
+        <item>Manejo de sus asuntos económicos</item>
+    </string-array>
+
+    <string-array name="lawton_phone">
+        <item>Utiliza el teléfono por iniciativa propia</item>
+        <item>Es capaz de marcar bien algunos números familiares</item>
+        <item>Es capaz de contestar al teléfono, pero no de marcar</item>
+        <item>No es capaz de usar el teléfono</item>
+    </string-array>
+
+    <string-array name="lawton_shopping">
+        <item>Realiza todas las compras necesarias independientemente</item>
+        <item>Realiza independientemente pequeñas compras</item>
+        <item>Necesita ir acompañado para hacer cualquier compra</item>
+        <item>Totalmente incapaz de comprar</item>
+    </string-array>
+
+    <string-array name="lawton_food">
+        <item>Organiza, prepara y sirve las comidas por sí solo adecuadamente</item>
+        <item>Prepara adecuadamente las comidas si se le proporcionan los ingredientes</item>
+        <item>Prepara, calienta y sirve las comidas, pero no sigue una dieta adecuada</item>
+        <item>Necesita que le preparen y sirvan las comidas</item>
+    </string-array>
+
+    <string-array name="lawton_house">
+        <item>Mantiene la casa solo o con ayuda ocasional (para trabajos pesados)</item>
+        <item>Realiza tareas ligeras, como lavar los platos o hacer las camas</item>
+        <item>Realiza tareas ligeras, pero no puede mantener un adecuado nivel de limpieza</item>
+        <item>Necesita ayuda en todas las labores de la casa</item>
+        <item>No participa en ninguna labor de la casa</item>
+    </string-array>
+
+    <string-array name="lawton_clothing">
+        <item>Lava por sí solo toda su ropa</item>
+        <item>Lava por sí solo pequeñas prendas</item>
+        <item>Todo el lavado de ropa debe ser realizado por otro</item>
+    </string-array>
+
+    <string-array name="lawton_transportation">
+        <item>Viaja solo en transporte público o conduce su propio coche</item>
+        <item>Es capaz de coger un taxi, pero no usa otro medio de transporte</item>
+        <item>Viaja en transporte público cuando va acompañado por otra persona</item>
+        <item>Sólo utiliza el taxi o el automóvil con ayuda de otros</item>
+        <item>No viaja</item>
+    </string-array>
+
+    <string-array name="lawton_medication">
+        <item>Es capaz de tomar su medicación a la hora y con la dosis correcta</item>
+        <item>Toma su medicación si la dosis le es preparada previamente</item>
+        <item>No es capaz de administrarse su medicación</item>
+    </string-array>
+
+    <string-array name="lawton_finances">
+        <item>Se encarga de sus asuntos económicos por sí solo</item>
+        <item>Realiza las compras de cada día, pero necesita ayuda en las grandes compras, bancos, etc.</item>
+        <item>Incapaz de manejar dinero</item>
+    </string-array>
+
+    <!-- SCALES -->
+    <string-array name="lawton_phone_scale">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="lawton_shopping_scale">
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="lawton_food_scale">
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="lawton_house_scale">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="lawton_clothing_scale">
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="lawton_transportation_scale">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="lawton_medication_scale">
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="lawton_finances_scale">
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+</resources>

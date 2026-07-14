@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="geriatric_depression_questions">
+        <item>¿Está usted satisfecho con la vida que lleva?</item>
+        <item>¿Siente que su vida está vacía?</item>
+        <item>¿Se siente aburrido frecuentemente? </item>
+        <item>¿Está preocupado porque piensa que algo malo le va a pasar? </item>
+        <item>¿Piensa que la mayoría de la gente tiene más suerte que usted?</item>
+    </string-array>
+
+    <string-array name="geriatric_depression_answer">
+        <item>Sí</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="geriatric_depression_help">
+        <item>A continuación le voy a hacer preguntas acerca de sus sentimientos. Para cada pregunta, por favor conteste "sí" o "no", dependiendo de cómo se ha sentido en la última semana, incluyendo el día de hoy".</item>
+    </string-array>
+
+    <string-array name="geriatric_depression_scale">
+        <item>0|1</item>
+        <item>1|0</item>
+        <item>1|0</item>
+        <item>1|0</item>
+        <item>1|0</item>
+    </string-array>
+
+</resources>
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TEXT -->
+    <string name="card_subjective_evaluation_title">Autopercepción de salud</string>
+
+    <string name="sb_card_label_title_0">¿Cómo usted considera que es su estado de salud?</string>
+    <string name="sb_card_label_title_1">¿Cómo usted valora su memoria?</string>
+    <string name="sb_card_label_title_2">¿Diría usted que actualmente presenta alguna de estas dificultades?</string>
+    <string name="sb_card_label_title_3">Inicio del deterioro cognitivo</string>
+    <string name="sb_card_label_title_4">Curso del deterioro</string>
+    <string name="sb_card_label_title_5">Tiempo de evolución</string>
+
+    <string name="sb_card_label_subtitle_1">Actualmente es:</string>
+    <string name="sb_card_label_subtitle_2">¿Cómo usted valora su memoria respecto al pasado?</string>
+
+    <string name="label_answer">Respuesta</string>
+
+    <!-- RADIO BUTTON -->
+    <string name="rdb_excellent">Excelente</string>
+    <string name="rdb_very_good">Muy Buena</string>
+    <string name="rdb_good">Buena</string>
+    <string name="rdb_regular">Regular</string>
+    <string name="rdb_bad">Mala</string>
+
+    <string name="rdb_better_than_before">Mejor que antes</string>
+    <string name="rdb_same_as_before">Igual que antes</string>
+    <string name="rdb_worst_as_before">Peor que antes</string>
+
+    <string name="rdb_abrupt">Brusco</string>
+    <string name="rdb_insidious">Insidioso</string>
+    <string name="rdb_no_precise">No precisa</string>
+
+    <string name="rdb_fluctuating">Fluctuante</string>
+    <string name="rdb_scale">Escalonante</string>
+
+    <string name="rdb_range_1">6 meses – 1 año</string>
+    <string name="rdb_range_2">1-2 años</string>
+    <string name="rdb_range_3">2 años y más</string>
+
+    <!-- CHECKBOX -->
+    <string name="cbx_1">Dificultades para recordar hechos recientes.</string>
+    <string name="cbx_2">Dificultades para orientarse espacialmente.</string>
+    <string name="cbx_4">Dificultades para orientarse temporalmente.</string>
+    <string name="cbx_5">Dificultades para hallar palabras.</string>
+    <string name="cbx_6">Dificultades para manejar finanzas.</string>
+    <string name="cbx_7">Dificultad para realizar más de una tarea a la vez.</string>
+    <string name="cbx_8">No reporta.</string>
+
+</resources>

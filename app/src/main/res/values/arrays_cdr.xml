@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="cdr_tests">
+        <item>Memoria</item>
+        <item>Orientación</item>
+        <item>Juicio y solución de problemas</item>
+        <item>Función en la comunidad</item>
+        <item>Hogar y pasatiempos</item>
+        <item>Cuidado personal</item>
+    </string-array>
+
+    <string-array name="cdr_memory">
+        <item>No hay pérdida de memoria. Olvidos ligeros e inconsistentes.</item>
+        <item>Olvidos consistentes leves; recuerdo parcial de acontecimientos; olvidos "benignos".</item>
+        <item>Pérdida de memoria moderada, más marcada para acontecimientos recientes; el defecto interfiere con actividades diarias.</item>
+        <item>Pérdida de memoria severa; retención exclusiva de material muy importante; pérdida rápida de material nuevo.</item>
+        <item>Pérdida de memoria severa, solo quedan fragmentos de recuerdos.</item>
+    </string-array>
+
+    <string-array name="cdr_orientation">
+        <item>Completamente orientado.</item>
+        <item>Totalmente orientado, excepto por una ligera dificultad con las relaciones temporales.</item>
+        <item>Dificultad moderada con relaciones temporales. Orientado en el lugar del examen; pero puede tener desorientación geográfica en otro lugar.</item>
+        <item>Dificultad severa con la relación temporal; generalmente desorientada en el tiempo, a menudo en el lugar.</item>
+        <item>Orientación solo en personas.</item>
+    </string-array>
+
+    <string-array name="cdr_judgment_and_problem_solution">
+        <item>Resuelve bien problemas cotidianos. Maneja bien los asuntos financieros; juicio bueno en relación al rendimiento pasado.</item>
+        <item>Deterioro leve en la resolución de problemas. Similitudes/ diferencias.</item>
+        <item>Dificultad moderada en el manejo de problemas, similitudes y diferencias.Generalmente se mantiene el juicio social.</item>
+        <item>Deterioro severo en el manejo de problemas. Similitudes/ diferencias; juicio social suele estar deteriorado.</item>
+        <item>Incapaz de hacer juicios o resolver problemas.</item>
+    </string-array>
+
+    <string-array name="cdr_community_role">
+        <item>Función independiente en nivel habitual de trabajo, compras, negocios y asuntos financieros, grupos sociales y voluntarios.</item>
+        <item>Deterioro leve en estas actividades.</item>
+        <item>Incapaz de funcionar de forma independiente en estas actividades, aunque todavía puede participar en algunas; parece normal a la inspección casual.</item>
+        <item>Sin pretensiones de función independiente fuera del hogar. Se ve lo suficientemente bien como para llevarlo a funciones fuera de la casa familiar.</item>
+        <item>Sin pretensiones de función independiente fuera del hogar. Parece demasiado enfermo para ser llevado a funciones fuera del hogar familiar.</item>
+    </string-array>
+
+    <string-array name="cdr_home_and_hobbies">
+        <item>Vida en el hogar, pasatiempos e intereses intelectuales bien mantenidos.</item>
+        <item>La vida en el hogar, los pasatiempos y los intereses intelectuales están ligeramente deteriorados.</item>
+        <item>Deterioro leve pero definitivo de la función en el hogar; abandono de tareas más difíciles; abandono de aficiones e intereses más complejos.</item>
+        <item>Solo se conservan las tareas sencillas; intereses muy restringidos, mal mantenidos.</item>
+        <item>Ninguna función significativa en la casa. </item>
+    </string-array>
+
+    <string-array name="cdr_personal_care">
+        <item>Totalmente capaz de cuidarse de sí mismo.</item>
+        <item>Necesita indicaciones.</item>
+        <item>Requiere asistencia para vestirse, lavarse y cuidar de sus efectos personales.</item>
+        <item>Requiere mucha ayuda para el cuidado personal; a menudo incontinente.</item>
+    </string-array>
+
+    <string-array name="cdr_help">
+        <item>Indague si el sujeto presenta deterioro de memoria. De ser afirmativo pregunte si es referentes a: olvidos de donde ha colocado objetos familiares, nombres previamente bien conocidos, dificultades en la evocación de palabras, si al leer un párrafo de un libro retiene poco material, si muestra dificultad para el recuerdo de personas nuevas que ha conocido.</item>
+        <item>Indague si el sujeto está orientado en persona, año, ciudad en la que vive, dirección particular.</item>
+        <item>Indague si el sujeto está en capacidad de hacer compras, llevar asuntos de finanzas, manejar dinero, dar vuelto, ir de compras, rendimiento laboral bien mantenido. Todo ello comparado con su desempeño pasado.</item>
+        <item>Indague si el sujeto mantiene un desempeño laboral que le permite responder a las tareas y demandas de manera independiente. Si se relaciona en grupos sociales (grupos de trabajo) y voluntarios (amigos personales, de preferencia) activamente.</item>
+        <item>Indague si el sujeto continúa realizando las rutinas y obligaciones en el hogar o si han disminuido respecto al pasado, así como sus pasatiempos (p. ej. Leer, hacer ejercicio físico, pintar, ver TV, escuchar música, bailar etc.) e intereses intelectuales (p.ej. superación profesional, entrenamientos en nuevas prácticas)</item>
+        <item>Indague si el sujeto es capaz de su aseo personal adecuadamente (p.ej. bañarse, vestirse, afeitarse, peinarse, abotonar la camisa adecuadamente, conjugar la ropa adecuadamente, etc.)</item>
+    </string-array>
+
+    <string-array name="cdr_scale">
+        <item>0</item>
+        <item>0.5</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>

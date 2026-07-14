@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<software.cneuro.neurogertheme.TextViewFont xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/spinner_item_text"
+    style="@style/SpinnerItemDropdownTextStyle"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_1_line_row_height"
+    android:background="@drawable/spinner_dropdown_item_selectable_background"
+    android:gravity="left|center_vertical"
+    android:paddingLeft="8dp"
+    android:text="@string/list_item_text"
+    app:myFont="Roboto-Light_3.ttf" />

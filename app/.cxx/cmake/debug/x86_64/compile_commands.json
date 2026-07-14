@@ -1,0 +1,67 @@
+[
+{
+  "directory": "D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86_64",
+  "command": "D:\\Antonio\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DrtGetNaN_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\rtGetNaN.dir\\rtGetNaN.c.o -c D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\src\\main\\cpp\\rtGetNaN.c",
+  "file": "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\src\\main\\cpp\\rtGetNaN.c"
+},
+{
+  "directory": "D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86_64",
+  "command": "D:\\Antonio\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DgetglobalCDR_initialize_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\getglobalCDR_initialize.dir\\getglobalCDR_initialize.c.o -c D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\src\\main\\cpp\\getglobalCDR_initialize.c",
+  "file": "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\src\\main\\cpp\\getglobalCDR_initialize.c"
+},
+{
+  "directory": "D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86_64",
+  "command": "D:\\Antonio\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android21 --gcc-toolchain=D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dneuroger_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\neuroger.dir\\neuroger.cpp.o -c D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\src\\main\\cpp\\neuroger.cpp",
+  "file": "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\src\\main\\cpp\\neuroger.cpp"
+},
+{
+  "directory": "D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86_64",
+  "command": "D:\\Antonio\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DgetglobalCDR_terminate_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\getglobalCDR_terminate.dir\\getglobalCDR_terminate.c.o -c D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\src\\main\\cpp\\getglobalCDR_terminate.c",
+  "file": "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\src\\main\\cpp\\getglobalCDR_terminate.c"
+},
+{
+  "directory": "D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86_64",
+  "command": "D:\\Antonio\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DgetglobalCDR_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\getglobalCDR.dir\\getglobalCDR.c.o -c D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\src\\main\\cpp\\getglobalCDR.c",
+  "file": "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\src\\main\\cpp\\getglobalCDR.c"
+},
+{
+  "directory": "D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86_64",
+  "command": "D:\\Antonio\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dsort1_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\sort1.dir\\sort1.c.o -c D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\src\\main\\cpp\\sort1.c",
+  "file": "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\src\\main\\cpp\\sort1.c"
+},
+{
+  "directory": "D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86_64",
+  "command": "D:\\Antonio\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Drt_nonfinite_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\rt_nonfinite.dir\\rt_nonfinite.c.o -c D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\src\\main\\cpp\\rt_nonfinite.c",
+  "file": "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\src\\main\\cpp\\rt_nonfinite.c"
+},
+{
+  "directory": "D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86_64",
+  "command": "D:\\Antonio\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dsum_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\sum.dir\\sum.c.o -c D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\src\\main\\cpp\\sum.c",
+  "file": "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\src\\main\\cpp\\sum.c"
+},
+{
+  "directory": "D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86_64",
+  "command": "D:\\Antonio\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dsign_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\sign.dir\\sign.c.o -c D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\src\\main\\cpp\\sign.c",
+  "file": "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\src\\main\\cpp\\sign.c"
+},
+{
+  "directory": "D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86_64",
+  "command": "D:\\Antonio\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DsortIdx_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\sortIdx.dir\\sortIdx.c.o -c D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\src\\main\\cpp\\sortIdx.c",
+  "file": "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\src\\main\\cpp\\sortIdx.c"
+},
+{
+  "directory": "D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86_64",
+  "command": "D:\\Antonio\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DrtGetInf_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\rtGetInf.dir\\rtGetInf.c.o -c D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\src\\main\\cpp\\rtGetInf.c",
+  "file": "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\src\\main\\cpp\\rtGetInf.c"
+},
+{
+  "directory": "D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86_64",
+  "command": "D:\\Antonio\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DifWhileCond_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\ifWhileCond.dir\\ifWhileCond.c.o -c D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\src\\main\\cpp\\ifWhileCond.c",
+  "file": "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\src\\main\\cpp\\ifWhileCond.c"
+},
+{
+  "directory": "D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/.cxx/cmake/debug/x86_64",
+  "command": "D:\\Antonio\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dhistcounts_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC -o CMakeFiles\\histcounts.dir\\histcounts.c.o -c D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\src\\main\\cpp\\histcounts.c",
+  "file": "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\src\\main\\cpp\\histcounts.c"
+}
+]

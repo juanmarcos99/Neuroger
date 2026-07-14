@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="card_hhies_title">Pesquisa auditiva</string>
+
+    <!-- HHIE-S DEPRESSION SCALE EVALUATION -->
+    <string name="hhies_result_ok">Sugiere ninguna discapacidad auditiva.</string>
+    <string name="hhies_result_regular">Sugiere discapacidad auditiva leve-moderada.</string>
+    <string name="hhies_result_negative">Sugiere discapacidad auditiva significativa.</string>
+
+</resources>

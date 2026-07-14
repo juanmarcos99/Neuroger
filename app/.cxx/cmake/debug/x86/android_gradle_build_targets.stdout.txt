@@ -1,0 +1,2 @@
+ninja: Entering directory `E:\WorkProjects\Neuroger\Neurodevelopment.NeuroGer.MCI\app\.cxx\cmake\debug\x86'
+ninja: no work to do.

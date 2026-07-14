@@ -1,0 +1,109 @@
+package software.cneuro.neuroger.ui.detail.questionnaire;
+
+import android.content.Context;
+import android.database.Cursor;
+import android.net.Uri;
+import android.os.Bundle;
+import androidx.annotation.NonNull;
+import androidx.loader.content.CursorLoader;
+import androidx.loader.content.Loader;
+import android.widget.TextView;
+
+import java.util.ArrayList;
+
+import software.cneuro.neuroger.R;
+import software.cneuro.neuroger.content.EvaluationPfeifferHelper;
+import software.cneuro.neuroger.content.PfeifferHelper;
+import software.cneuro.neuroger.content.StringHelper;
+import software.cneuro.neurogerdatabase.constant.Constant;
+
+/**
+ * A placeholder fragment containing a simple view.
+ */
+public class PfeifferDetailFragment extends BaseQuestionnaireLongAnswerDetailFragment {
+    public static final String ARG_SUBJECT_NAME = "name";
+    private String mName;
+
+    // PFEIFFER
+    static final String[] PROJECTION = new String[]{
+            Constant.COL_PFEIFFER_TEST_ANSWERS_LIST,
+            Constant.COL_PFEIFFER_TEST_EVALUATION
+    };
+
+    public PfeifferDetailFragment() {
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        if (getArguments() != null && getArguments().containsKey(ARG_SUBJECT_NAME)) {
+            mName = getArguments().getString(ARG_SUBJECT_NAME);
+        }
+    }
+
+    @NonNull
+    @Override
+    public Loader<Cursor> onCreateLoader(int id, Bundle args) {
+        Uri baseUri = software.cneuro.neurogerdatabase.constant.Constant.URI_TABLE_PFEIFFER_TEST;
+
+        String select = "((" + software.cneuro.neurogerdatabase.constant.Constant.COL_PFEIFFER_TEST_PATIENT_ID + " = " + mSubjectId + " ))";
+
+        assert getActivity() != null;
+        return new CursorLoader(
+                getActivity(),
+                baseUri,
+                PROJECTION,
+                select,
+                null,
+                null);
+    }
+
+    @Override
+    public void onLoadFinished(@NonNull Loader<Cursor> loader, Cursor cursor) {
+        if (cursor != null && cursor.moveToFirst() && getContext() != null) {
+            mScore = cursor.getDouble(
+                    cursor.getColumnIndex(Constant.COL_PFEIFFER_TEST_EVALUATION));
+
+            String answerPosJson = cursor.getString(
+                    cursor.getColumnIndex(Constant.COL_PFEIFFER_TEST_ANSWERS_LIST));
+            ArrayList<Integer> answerPosList = StringHelper.getArrayListFromJson(answerPosJson);
+            int questionPos = 0;
+            for (Integer position : answerPosList) {
+                addNewInfo(questionPos++, position);
+            }
+
+            setEvaluation();
+        }
+    }
+
+    @Override
+    public void onLoaderReset(@NonNull Loader<Cursor> loader) {
+
+    }
+
+    @Override
+    public void setEvaluation() {
+        assert getView() != null;
+        ((TextView) getView().findViewById(R.id.card_score)).setText(StringHelper.appendWithDots(
+                getString(R.string.card_label_score),
+                String.valueOf(mScore),
+                getString(R.string.score_unit)
+        ));
+        ((TextView) getView().findViewById(R.id.card_result)).setText(
+                EvaluationPfeifferHelper.getEvaluationText(getActivity(),
+                        EvaluationPfeifferHelper.evaluate(mScore)));
+    }
+
+    @Override
+    public String getTestTypesText(Context context, int questionPos) {
+        assert getActivity() != null;
+        return PfeifferHelper.getQuestionText(getActivity(), questionPos, mName);
+    }
+
+    @Override
+    public String getItemsList(Context context, int questionPos, int answerPos) {
+        assert getActivity() != null;
+        return PfeifferHelper.getAnswerText(getActivity(), answerPos);
+    }
+}

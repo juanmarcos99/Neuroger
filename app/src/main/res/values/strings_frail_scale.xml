@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TEXT -->
+    <string name="card_frail_title">Escala FRAIL de fragilidad</string>
+
+    <string name="card_label_fatigue">En las últimas 4 semanas, ¿qué tanto se ha sentido cansado?</string>
+    <string name="card_label_resistance">Usted solo sin ningún auxiliar como bastón o andadera; ¿Tiene dificultad para subir 10 escalones (una escalera)?</string>
+    <string name="card_label_wandering">Usted solo sin ningún auxiliar como bastón o andadera; ¿Tiene dificultad para caminar 100 metros (dos cuadras) sin descansar?</string>
+    <string name="card_label_diseases">¿Algún doctor o médico le ha comentado que padece alguna de estas enfermedades?</string>
+    <string name="card_label_weight_loss">Pérdida de peso</string>
+
+    <string name="no_diseases">Nadie le ha comentado sobre las enfermedades</string>
+
+    <string name="how_much_weight">¿Cuánto pesa con su ropa y sin zapatos?</string>
+
+    <!-- EDITTEXT -->
+    <string name="edittext_weight_loss_current_hint">Peso actual (kg)</string>
+    <string name="edittext_weight_loss_1_year_ago_hint">Peso hace 1 año (kg)</string>
+
+    <string name="frail_help">A continuación usted le va a preguntar al paciente acerca de algunas cuestiones relacionadas con el estado de vulnerabilidad y fragilidad. Están divididas en cinco  esferas (1. Fatiga, 2. Resistencia, 3. Deambulación, 4. Enfermedades y 5. Pérdida de peso).
+\n\nUsted debe marcar solo una casilla en las primeras tres esferas (1. Fatiga, 2. Resistencia y 3. Deambulación), según corresponda.
+\n\nEn la cuarta (4. Enfermedades) las casillas que correspondan con las enfermedades que le  reporte el paciente. Note que pudieran ser más de una.
+\n\nEn la quinta (5. Pérdida de peso) introducir manualmente el peso en kg según corresponda para el peso actual y el peso un año atrás (1lb = 0.453592kg).
+</string>
+
+    <!-- RESULT -->
+    <string name="result_robust">Robusto</string>
+    <string name="result_pre_fragile">Pre frágil</string>
+    <string name="result_fragile">Frágil</string>
+
+</resources>

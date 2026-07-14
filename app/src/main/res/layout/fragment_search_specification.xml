@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/fragment_margin"
+    android:paddingTop="@dimen/fragment_margin">
+
+    <software.cneuro.neurogertheme.EditTextFont
+        android:id="@+id/new_list_name"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edittext_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="@dimen/fragment_margin"
+        android:layout_marginLeft="@dimen/fragment_margin"
+        android:layout_marginRight="@dimen/fragment_margin"
+        android:layout_marginStart="@dimen/fragment_margin"
+        android:drawableLeft="@drawable/ic_search2"
+        android:drawableStart="@drawable/ic_search2"
+        android:hint="@string/edittext_search_by_name_hint"
+        android:padding="8dp"
+        app:myFont="Roboto-Light_3.ttf" />
+
+    <software.cneuro.neurogertheme.CheckBoxFont
+        android:id="@+id/cbx_age_group"
+        style="@style/CheckboxStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/new_list_name"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="@dimen/fragment_margin"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="@dimen/fragment_margin"
+        android:layout_marginTop="16dp"
+        android:text="@string/label_cbx_age_group"
+        app:myFont="Roboto-Light_3.ttf" />
+
+    <Spinner
+        android:id="@+id/spinner_age_group"
+        style="@style/SpinnerInputStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_control_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/new_list_name"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="@dimen/fragment_margin"
+        android:layout_marginRight="@dimen/fragment_margin"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@+id/cbx_age_group"
+        android:layout_toRightOf="@+id/cbx_age_group" />
+
+    <software.cneuro.neurogertheme.CheckBoxFont
+        android:id="@+id/cbx_gender"
+        style="@style/CheckboxStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/cbx_age_group"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="@dimen/fragment_margin"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="@dimen/fragment_margin"
+        android:text="@string/label_gender"
+        app:myFont="Roboto-Light_3.ttf" />
+
+    <RadioGroup
+        android:id="@+id/subject_radiogroup_gender"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_control_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/cbx_age_group"
+        android:layout_marginEnd="@dimen/fragment_margin"
+        android:layout_marginRight="@dimen/fragment_margin"
+        android:layout_toEndOf="@id/cbx_gender"
+        android:layout_toRightOf="@id/cbx_gender"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <software.cneuro.neurogertheme.RadioButtonFont
+            android:id="@+id/rdb_female"
+            style="@style/RadioButtonInputStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/rdb_input_margin_right"
+            android:layout_marginRight="@dimen/rdb_input_margin_right"
+            android:text="@string/rdb_gender_female"
+            app:myFont="Roboto-Light_3.ttf" />
+
+        <software.cneuro.neurogertheme.RadioButtonFont
+            android:id="@+id/rdb_male"
+            style="@style/RadioButtonInputStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/rdb_gender_male"
+            app:myFont="Roboto-Light_3.ttf" />
+    </RadioGroup>
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="hhies_questions">
+        <item>¿El problema auditivo (de no oír bien) le causa vergüenza cuando usted conoce por primera vez a las personas?</item>
+        <item>¿El problema auditivo (de no oír bien) le causa que se sienta frustrado o confundido cuando está hablando con miembros de su familia?</item>
+        <item>¿Tiene usted dificultad en oír cuando alguien habla en voz baja?</item>
+        <item>¿Se siente usted con desventaja física a causa de su problema auditivo (de no oír bien)?</item>
+        <item>¿El problema auditivo (de no oír bien) le causa dificultad en visitar a los amigos, parientes o vecinos?</item>
+        <item>¿El problema auditivo (de no oír bien) le ocasiona que no puede asistir tan seguido como quisiera a servicios religiosos u otras actividades sociales?</item>
+        <item>¿El problema auditivo (de no oír bien) le causa que tenga discusiones con los miembros de su familia?</item>
+        <item>¿El problema auditivo (de no oír bien) le causa problemas cuando escucha la televisión o radio?</item>
+        <item>¿Cree usted que cualquier dificultad con su problema auditivo (de no oír bien) lo limita o le pone obstáculos en su vida personal y social?</item>
+        <item>¿El problema auditivo (de no oír bien) le causa dificultades cuando se encuentra en un restaurante con parientes y amigos?</item>
+    </string-array>
+
+    <string-array name="hhies_answer">
+        <item>Sí</item>
+        <item>A veces</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="hhies_help">
+        <item>Ahora, tengo unas preguntas sobre cómo se siente usted en cuanto a su audición. Para cada frase deberá decirme cuánto lo describe, escogiendo entre tres posibles respuestas: NO lo describe, SI le describe, o A VECES lo describe. No debe dejar de responder a ninguna de las preguntas.</item>
+    </string-array>
+
+    <string-array name="hhies_scale">
+        <item>4</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+
+</resources>

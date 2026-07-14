@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="card_katz_title">Índice de Katz</string>
+
+    <string name="katz_help_prefix">A continuación usted le va a preguntar al paciente acerca de algunas cuestiones relacionadas con actividades de la vida diaria y su nivel de independencia para realizar cada una de ellas. Están divididas en seis  esferas.
+\n\nUsted debe marcar solo una casilla de dos posibles respuestas: Independiente o Dependiente.\n\n
+</string>
+    <!-- EVALUATION -->
+    <string name="katz_result_ok">Ausencia de incapacidad o incapacidad leve</string>
+    <string name="katz_result_regular">Incapacidad moderada</string>
+    <string name="katz_result_negative">Incapacidad severa</string>
+
+</resources>

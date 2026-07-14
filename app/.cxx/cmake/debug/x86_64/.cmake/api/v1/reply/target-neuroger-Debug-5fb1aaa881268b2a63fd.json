@@ -1,0 +1,222 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "D:/Antonio/androidApps/ProteccionAPP/Neurodevelopment.NeuroGer.MCI/app/build/intermediates/cmake/debug/obj/x86_64/libneuroger.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 151,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "neuroger_EXPORTS"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			],
+			"sysroot" : 
+			{
+				"path" : "D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "sortIdx::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "rtGetInf::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "ifWhileCond::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "histcounts::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "sum::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "sign::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "rtGetNaN::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "getglobalCDR_initialize::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "sort1::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "rt_nonfinite::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "getglobalCDR_terminate::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "getglobalCDR::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "neuroger::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libgetglobalCDR.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libgetglobalCDR_initialize.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libgetglobalCDR_terminate.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-llog",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libifWhileCond.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libsum.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libsort1.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libsortIdx.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libsign.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libhistcounts.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\librt_nonfinite.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-llog",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\librtGetNaN.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "D:\\Antonio\\androidApps\\ProteccionAPP\\Neurodevelopment.NeuroGer.MCI\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\librtGetInf.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "D:/Antonio/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+		}
+	},
+	"name" : "neuroger",
+	"nameOnDisk" : "libneuroger.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "neuroger.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

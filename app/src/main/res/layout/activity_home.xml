@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/AppStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/search_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/list_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_container"
+        android:visibility="gone" />
+
+    <software.cneuro.neurogertheme.TextViewFont
+        android:id="@+id/error_device_not_allowed"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_container"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="359dp"
+        android:gravity="center"
+        android:padding="@dimen/fragment_margin"
+        android:text="@string/error_device_not_allowed"
+        android:textSize="@dimen/card_detail_text"
+        android:visibility="gone"
+        app:myFont="Roboto-Light_3.ttf" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/fab_margin"
+        android:clickable="true"
+        android:contentDescription="@string/new_subject"
+        android:focusable="true"
+        android:src="@drawable/fab_add"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        android:visibility="gone"/>
+
+</RelativeLayout>

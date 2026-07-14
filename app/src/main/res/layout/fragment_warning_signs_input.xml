@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/fragment_margin"
+            android:layout_marginRight="@dimen/fragment_margin"
+            android:layout_marginTop="16dp"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="@dimen/card_elevation"
+            app:contentPadding="16dp">
+
+            <software.cneuro.neurogertheme.TextViewFont
+                android:id="@+id/card_orientation_title"
+                style="@style/QuestionnaireTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/warning_sing_title"
+                app:myFont="Roboto-Thin_3.ttf" />
+
+        </androidx.v7.widget.CardView>
+
+        <androidx.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="@dimen/fragment_margin"
+            android:layout_marginRight="@dimen/fragment_margin"
+            android:layout_marginTop="16dp"
+            app:cardBackgroundColor="@color/primary"
+            app:cardCornerRadius="@dimen/card_corner_radius"
+            app:cardElevation="@dimen/card_elevation"
+            app:contentPadding="16dp"
+            app:contentPaddingTop="0dp">
+
+            <LinearLayout
+                android:id="@+id/detail_card_container_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+        </androidx.v7.widget.CardView>
+
+        <include
+            layout="@layout/action_btn_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,445 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/card_score_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/fragment_margin"
+            android:layout_marginTop="@dimen/fragment_margin"
+            android:layout_marginRight="@dimen/fragment_margin" />
+
+        <androidx.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/fragment_margin"
+            android:layout_marginLeft="@dimen/fragment_margin"
+            android:layout_marginRight="@dimen/fragment_margin"
+            android:layout_marginStart="@dimen/fragment_margin"
+            android:layout_marginTop="@dimen/fragment_margin"
+            card_view:cardBackgroundColor="@color/card_background"
+            card_view:cardCornerRadius="@dimen/card_corner_radius"
+            card_view:cardElevation="@dimen/card_elevation">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <software.cneuro.neurogertheme.TextViewFont
+                    style="@style/SubjectCardTitleBlackTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/fragment_margin"
+                    android:text="@string/card_label_imc"
+                    app:myFont="Roboto-Light_3.ttf" />
+
+                <software.cneuro.neurogertheme.TextViewFont
+                    android:id="@+id/card_imc"
+                    style="@style/EvaluationCardDetailTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/fragment_margin"
+                    android:paddingLeft="@dimen/fragment_margin"
+                    android:paddingRight="@dimen/fragment_margin"
+                    android:text="@string/card_label_imc_large"
+                    app:myFont="Roboto-Light_3.ttf" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/physical_performance_result_background">
+
+                    <ImageView
+                        android:id="@+id/card_result_imc_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/card_evaluation_help_image_height"
+                        android:layout_centerInParent="true"
+                        android:contentDescription="@string/cd_list_item_icon"
+                        android:padding="4dp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </androidx.v7.widget.CardView>
+
+        <androidx.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/fragment_margin"
+            android:layout_marginLeft="@dimen/fragment_margin"
+            android:layout_marginRight="@dimen/fragment_margin"
+            android:layout_marginStart="@dimen/fragment_margin"
+            android:layout_marginTop="@dimen/fragment_margin"
+            card_view:cardBackgroundColor="@color/card_background"
+            card_view:cardCornerRadius="@dimen/card_corner_radius"
+            card_view:cardElevation="@dimen/card_elevation">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <software.cneuro.neurogertheme.TextViewFont
+                    style="@style/SubjectCardTitleBlackTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/fragment_margin"
+                    android:text="@string/card_label_march"
+                    app:myFont="Roboto-Light_3.ttf" />
+
+                <software.cneuro.neurogertheme.TextViewFont
+                    android:id="@+id/card_march_velocity"
+                    style="@style/EvaluationCardDetailTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/fragment_margin"
+                    android:paddingLeft="@dimen/fragment_margin"
+                    android:paddingRight="@dimen/fragment_margin"
+                    android:text="@string/card_label_velocity"
+                    app:myFont="Roboto-Light_3.ttf" />
+
+                <software.cneuro.neurogertheme.TextViewFont
+                    android:id="@+id/card_march_amplitude"
+                    style="@style/EvaluationCardDetailTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:paddingEnd="@dimen/fragment_margin"
+                    android:paddingLeft="@dimen/fragment_margin"
+                    android:paddingRight="@dimen/fragment_margin"
+                    android:paddingTop="8dp"
+                    android:text="@string/card_label_amplitude"
+                    app:myFont="Roboto-Light_3.ttf" />
+
+                <software.cneuro.neurogertheme.TextViewFont
+                    android:id="@+id/card_march_frequency"
+                    style="@style/EvaluationCardDetailTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:paddingEnd="@dimen/fragment_margin"
+                    android:paddingLeft="@dimen/fragment_margin"
+                    android:paddingRight="@dimen/fragment_margin"
+                    android:text="@string/card_label_frequency"
+                    app:myFont="Roboto-Light_3.ttf" />
+
+                <software.cneuro.neurogertheme.TextViewFont
+                    android:id="@+id/card_result_march_score"
+                    style="@style/EvaluationCardDetailTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/fragment_margin"
+                    android:paddingLeft="@dimen/fragment_margin"
+                    android:paddingRight="@dimen/fragment_margin"
+                    android:text="@string/card_label_score"
+                    app:myFont="Roboto-Light_3.ttf" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/physical_performance_result_background">
+
+                    <ImageView
+                        android:id="@+id/card_result_march_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/card_evaluation_help_image_height"
+                        android:layout_centerInParent="true"
+                        android:contentDescription="@string/cd_list_item_icon"
+                        android:padding="4dp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </androidx.v7.widget.CardView>
+
+        <androidx.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="@dimen/fragment_margin"
+            android:layout_marginLeft="@dimen/fragment_margin"
+            android:layout_marginRight="@dimen/fragment_margin"
+            android:layout_marginStart="@dimen/fragment_margin"
+            android:layout_marginTop="16dp"
+            card_view:cardBackgroundColor="@color/card_background"
+            card_view:cardCornerRadius="@dimen/card_corner_radius"
+            card_view:cardElevation="@dimen/card_elevation">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <software.cneuro.neurogertheme.TextViewFont
+                    style="@style/SubjectCardTitleBlackTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/fragment_margin"
+                    android:text="@string/card_label_static_balance"
+                    app:myFont="Roboto-Light_3.ttf" />
+
+                <software.cneuro.neurogertheme.TextViewFont
+                    android:id="@+id/card_parallel_feet"
+                    style="@style/EvaluationCardDetailTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/fragment_margin"
+                    android:paddingLeft="@dimen/fragment_margin"
+                    android:paddingRight="@dimen/fragment_margin"
+                    android:text="@string/card_label_cbx_parallel_feet"
+                    app:myFont="Roboto-Light_3.ttf" />
+
+                <software.cneuro.neurogertheme.TextViewFont
+                    android:id="@+id/card_semi_tantem_position"
+                    style="@style/EvaluationCardDetailTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:paddingEnd="@dimen/fragment_margin"
+                    android:paddingLeft="@dimen/fragment_margin"
+                    android:paddingRight="@dimen/fragment_margin"
+                    android:paddingTop="8dp"
+                    android:text="@string/card_label_cbx_semi_tandem_position"
+                    app:myFont="Roboto-Light_3.ttf" />
+
+                <software.cneuro.neurogertheme.TextViewFont
+                    android:id="@+id/card_tantem_position"
+                    style="@style/EvaluationCardDetailTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:paddingEnd="@dimen/fragment_margin"
+                    android:paddingLeft="@dimen/fragment_margin"
+                    android:paddingRight="@dimen/fragment_margin"
+                    android:text="@string/card_label_cbx_tandem_position"
+                    app:myFont="Roboto-Light_3.ttf" />
+
+                <software.cneuro.neurogertheme.TextViewFont
+                    android:id="@+id/card_result_static_balance_score"
+                    style="@style/EvaluationCardDetailTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/fragment_margin"
+                    android:paddingLeft="@dimen/fragment_margin"
+                    android:paddingRight="@dimen/fragment_margin"
+                    android:text="@string/card_label_score"
+                    app:myFont="Roboto-Light_3.ttf" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/physical_performance_result_background">
+
+                    <ImageView
+                        android:id="@+id/card_result_static_balance_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/card_evaluation_help_image_height"
+                        android:layout_centerInParent="true"
+                        android:contentDescription="@string/cd_list_item_icon"
+                        android:padding="4dp" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </androidx.v7.widget.CardView>
+
+        <androidx.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/fragment_margin"
+            android:layout_marginEnd="@dimen/fragment_margin"
+            android:layout_marginLeft="@dimen/fragment_margin"
+            android:layout_marginRight="@dimen/fragment_margin"
+            android:layout_marginStart="@dimen/fragment_margin"
+            card_view:cardBackgroundColor="@color/card_background"
+            card_view:cardCornerRadius="@dimen/card_corner_radius"
+            card_view:cardElevation="@dimen/card_elevation">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <software.cneuro.neurogertheme.TextViewFont
+                    style="@style/SubjectCardTitleBlackTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/fragment_margin"
+                    android:text="@string/card_label_speed_squat"
+                    app:myFont="Roboto-Light_3.ttf" />
+
+                <software.cneuro.neurogertheme.TextViewFont
+                    android:id="@+id/card_squad_repetitions"
+                    style="@style/EvaluationCardDetailTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/fragment_margin"
+                    android:paddingLeft="@dimen/fragment_margin"
+                    android:paddingRight="@dimen/fragment_margin"
+                    android:text="@string/card_label_speed_squat_quantity"
+                    app:myFont="Roboto-Light_3.ttf" />
+
+                <software.cneuro.neurogertheme.TextViewFont
+                    android:id="@+id/card_squad_count"
+                    style="@style/EvaluationCardDetailTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/fragment_margin"
+                    android:paddingLeft="@dimen/fragment_margin"
+                    android:paddingRight="@dimen/fragment_margin"
+                    android:paddingTop="8dp"
+                    android:text="@string/card_label_speed_squat_count"
+                    app:myFont="Roboto-Light_3.ttf" />
+
+                <software.cneuro.neurogertheme.TextViewFont
+                    android:id="@+id/card_squad_time"
+                    style="@style/EvaluationCardDetailTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:paddingEnd="@dimen/fragment_margin"
+                    android:paddingLeft="@dimen/fragment_margin"
+                    android:paddingRight="@dimen/fragment_margin"
+                    android:paddingTop="8dp"
+                    android:text="@string/card_detail_time"
+                    app:myFont="Roboto-Light_3.ttf" />
+
+                <software.cneuro.neurogertheme.TextViewFont
+                    android:id="@+id/card_result_squad_score"
+                    style="@style/EvaluationCardDetailTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/fragment_margin"
+                    android:paddingLeft="@dimen/fragment_margin"
+                    android:paddingRight="@dimen/fragment_margin"
+                    android:text="@string/card_label_score"
+                    app:myFont="Roboto-Light_3.ttf" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/physical_performance_result_background">
+
+                    <ImageView
+                        android:id="@+id/card_result_squad_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/card_evaluation_help_image_height"
+                        android:layout_centerInParent="true"
+                        android:contentDescription="@string/cd_list_item_icon"
+                        android:padding="4dp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </androidx.v7.widget.CardView>
+
+        <androidx.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/fragment_margin"
+            android:layout_marginEnd="@dimen/fragment_margin"
+            android:layout_marginLeft="@dimen/fragment_margin"
+            android:layout_marginRight="@dimen/fragment_margin"
+            android:layout_marginStart="@dimen/fragment_margin"
+            card_view:cardBackgroundColor="@color/card_background"
+            card_view:cardCornerRadius="@dimen/card_corner_radius"
+            card_view:cardElevation="@dimen/card_elevation">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <software.cneuro.neurogertheme.TextViewFont
+                    android:id="@+id/card_grip_strength_title"
+                    style="@style/SubjectCardTitleBlackTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/fragment_margin"
+                    android:text="@string/card_label_grip_strength"
+                    app:myFont="Roboto-Light_3.ttf" />
+
+                <software.cneuro.neurogertheme.TextViewFont
+                    android:id="@+id/card_left_grip_strength"
+                    style="@style/EvaluationCardDetailTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/fragment_margin"
+                    android:paddingLeft="@dimen/fragment_margin"
+                    android:paddingRight="@dimen/fragment_margin"
+                    android:text="@string/card_label_better_right_grip_strength"
+                    app:myFont="Roboto-Light_3.ttf" />
+
+                <software.cneuro.neurogertheme.TextViewFont
+                    android:id="@+id/card_right_grip_strength"
+                    style="@style/EvaluationCardDetailTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="8dp"
+                    android:paddingEnd="@dimen/fragment_margin"
+                    android:paddingLeft="@dimen/fragment_margin"
+                    android:paddingRight="@dimen/fragment_margin"
+                    android:paddingTop="8dp"
+                    android:text="@string/card_label_better_left_grip_strength"
+                    app:myFont="Roboto-Light_3.ttf" />
+
+                <software.cneuro.neurogertheme.TextViewFont
+                    android:id="@+id/card_result_grip_strength_score"
+                    style="@style/EvaluationCardDetailTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/fragment_margin"
+                    android:paddingLeft="@dimen/fragment_margin"
+                    android:paddingRight="@dimen/fragment_margin"
+                    android:text="@string/card_label_score"
+                    app:myFont="Roboto-Light_3.ttf" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/physical_performance_result_background">
+
+                    <ImageView
+                        android:id="@+id/card_result_grip_strength_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/card_evaluation_help_image_height"
+                        android:layout_centerInParent="true"
+                        android:contentDescription="@string/cd_list_item_icon"
+                        android:padding="4dp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </androidx.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

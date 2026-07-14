@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TEXT -->
+    <string name="card_mini_mental_state_title">Mini examen cognitivo MMSE</string>
+
+    <string name="card_label_temporal">Orientación temporal</string>
+    <string name="card_label_spatial">Orientación espacial</string>
+    <string name="card_label_retention_info">Retención y registro de información</string>
+    <string name="card_label_math_attention">Cálculo y atención</string>
+    <string name="card_label_reminder">Recuerdo</string>
+    <string name="card_label_design">Copia de diseño</string>
+    <string name="card_label_language">Lenguaje</string>
+    <string name="card_label_order_3">Orden en 3</string>
+
+    <string name="card_label_calc">Contar desde 100 restando 7</string>
+    <string name="card_label_spelling_word">Deletrear la palabra mundo de atrás hacia delante:\nO D N U M</string>
+
+    <!-- EDITTEXT -->
+    <string name="edittext_math_hint">No.</string>
+
+    <!-- HELP -->
+    <string name="orientation_temporal_help">Explore la orientación temporal del paciente
+        preguntando por cada una de las siguientes cuestiones según se presentan a continuación.
+        \n\nNota: Marcar solo si la respuesta es correcta.
+    </string>
+    <string name="orientation_spatial_help">Explore la orientación espacial del paciente
+        preguntando por cada una de las siguientes cuestiones según se presentan a continuación.
+        \n\nNota: Marcar solo si la respuesta es correcta.
+    </string>
+
+    <string name="retention_help">El especialista debe dar la siguiente instrucción: "Le voy a nombrar 3 palabras. Quiero que las repita después de mí. Trate de memorizarlas, pues se las voy a preguntar más adelante".
+                                  \nEl especialista debe repetir despacio las palabras: PELOTA, BANDERA y ARBOL. Repetirlas hasta 6 intentos para que el paciente las aprenda.
+        \n\nNota: El especialista debe marcar solo las  palabras que el paciente  haya sido capaz de repetir.
+    </string>
+
+    <string name="math_help">El especialista debe pedir al paciente contar desde 100 restando 7 y parar después de cinco respuestas (93-86-79-72-65).
+        \n\nTeclear las respuestas del paciente en cada recuadro sean correctas o no.
+        \n\nSi el sujeto no puede realizar la tarea de resta, el especialista debe pedir al paciente deletrear la palabra  MUNDO de atrás hacia delante.
+        \n\nTeclear en el recuadro de abajo en el orden en que se deletreó cada letra.
+        \n\tEj.: ODNUM=5
+        \n\tEj.: ODMUN=3
+        \n\nNota: El especialista registrará la mejor ejecución (entre restra y deletrear)  para la calificación final.
+    </string>
+
+    <string name="reminder_help"> El especialista debe preguntar por las tres palabras repetidas previamente (PELOTA, BANDERA Y ARBOL). \n\nMarcar cada respuesta correcta según corresponda.</string>
+
+    <string name="language_1_help">Mostrar al anciano un reloj y preguntarle: “¿Qué es  esto?”\n\nNota: Marcar solo si la respuesta es correcta.</string>
+
+    <string name="language_2_help">Mostrar al anciano un lápiz y preguntarle: “¿Qué es  esto?”\n\nMarcar solo si la respuesta es correcta.</string>
+
+    <string name="language_3_help">Pídale al paciente que repita la frase: “Ni si, ni no, ni peros”.\n\nMarcar solo si repite correctamente la frase.</string>
+
+    <string name="language_4_help">El anciano debe ser capaz de leer y obedecer lo que indica la frase. CIERRE LOS OJOS.\n\nNota: Marcar solo si ejecuta correctamente la orden.</string>
+
+    <string name="language_5_help">Oriente al paciente para que escriba una frase u oración.\n\nNota: Marcar solo si logra escribir una frase u oración con significado.</string>
+
+    <string name="order_help">El especialista debe orientar  al paciente para que realice la siguiente orden en tres tiempos:
+“Tomar un papel con la mano derecha, doblarlo por la mitad y ponerlo en el piso”.\n\n
+Nota: El especialista debe marcar según haya cumplido cada orden.
+</string>
+
+    <string name="design_help">El especialista debe pedirle  al paciente que copie el diseño que se le mostrará.\n\n
+Nota: Cumple si y solo si, es capaz  de reproducir dos figuras con 5 lados (5 ángulos y 5 líneas) interceptadas.
+    </string>
+
+    <!-- RESULT -->
+    <string name="result_without_minimental">Sin deterioro cognitivo</string>
+    <string name="result_with_minimental">Con deterioro cognitivo </string>
+
+
+    <string name="patient_no_respond">Sin respuesta</string>
+
+</resources>

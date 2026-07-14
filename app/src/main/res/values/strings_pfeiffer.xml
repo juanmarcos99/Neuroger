@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- PFEIFFER EVALUATION -->
+    <string name="pfeiffer_result_ok">Normalidad funcional.</string>
+    <string name="pfeiffer_result_negative">Alteración funcional.</string>
+</resources>

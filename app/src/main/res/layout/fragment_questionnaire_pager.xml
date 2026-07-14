@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.input.questionnaire.QuestionnairePagerFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btn_action_container"
+        tools:ignore="UnknownId">
+
+        <com.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:padding="16dp"
+            app:fillColor="@color/primary"
+            app:pageColor="@color/circle_page_indicator_pageColor"
+            app:radius="@dimen/circle_page_indicator_radius"
+            app:strokeColor="@color/primary" />
+
+        <include
+            android:id="@+id/separator"
+            layout="@layout/horizontal_line_light_thin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/indicator"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="0dp" />
+
+        <androidx.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/separator"
+            android:layout_margin="16dp" />
+    </RelativeLayout>
+
+    <ViewStub
+        android:id="@id/stub_btn_end_test_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:inflatedId="@id/btn_action_container"
+        android:layout="@layout/action_btn_container" />
+
+</RelativeLayout>

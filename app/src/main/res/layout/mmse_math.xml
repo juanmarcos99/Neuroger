@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.gridlayout.widget.GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:alignmentMode="alignBounds"
+    app:columnCount="3"
+    app:columnOrderPreserved="false"
+    app:rowCount="9"
+    app:useDefaultMargins="true">
+
+    <software.cneuro.neurogertheme.RadioButtonFont
+        android:id="@+id/rdb_female"
+        style="@style/RadioButtonInputStyle"
+        app:myFont="Roboto-Light_3.ttf"
+        app:layout_column="0" />
+
+    <software.cneuro.neurogertheme.TextViewFont
+        style="@style/SubjectCardTitleBlackTextStyle"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="@string/card_label_math_attention"
+        app:myFont="Roboto-Light_3.ttf"
+        app:layout_column="1"
+        app:layout_gravity="fill" />
+
+    <ImageButton
+        android:id="@+id/card_math_attention_help_icon"
+        style="@style/HelpIconRedStyle"
+        android:layout_width="@dimen/card_evaluation_help_image_height"
+        android:layout_height="@dimen/card_evaluation_help_image_height"
+        android:contentDescription="@string/cd_list_item_icon"
+        app:layout_column="2"
+        app:layout_gravity="center" />
+
+    <software.cneuro.neurogertheme.CheckBoxFont
+        android:id="@+id/card_calc_1"
+        style="@style/CheckboxStyle"
+        android:text="@string/card_label_age"
+        app:myFont="Roboto-Light_3.ttf"
+        app:layout_column="1"
+        app:layout_gravity="fill" />
+
+    <software.cneuro.neurogertheme.EditTextFont
+        android:id="@+id/card_calc_edittext_1"
+        style="@style/EditTextStyle"
+        android:layout_width="@dimen/edittext_mini_mental_width"
+        android:layout_height="@dimen/edittext_height"
+        android:hint="@string/edittext_math_hint"
+        android:padding="8dp"
+        app:myFont="Roboto-Light_3.ttf"
+        app:layout_column="2"
+        app:layout_gravity="center_vertical" />
+
+    <software.cneuro.neurogertheme.CheckBoxFont
+        android:id="@+id/card_calc_2"
+        style="@style/CheckboxStyle"
+        android:text="@string/card_label_age"
+        app:myFont="Roboto-Light_3.ttf"
+        app:layout_column="1"
+        app:layout_gravity="fill" />
+
+    <software.cneuro.neurogertheme.EditTextFont
+        android:id="@+id/card_calc_edittext_2"
+        style="@style/EditTextStyle"
+        android:layout_width="@dimen/edittext_mini_mental_width"
+        android:layout_height="@dimen/edittext_height"
+        android:hint="@string/edittext_math_hint"
+        android:padding="8dp"
+        app:myFont="Roboto-Light_3.ttf"
+        app:layout_column="2"
+        app:layout_gravity="center_vertical" />
+
+    <software.cneuro.neurogertheme.CheckBoxFont
+        android:id="@+id/card_calc_3"
+        style="@style/CheckboxStyle"
+        android:text="@string/card_label_age"
+        app:myFont="Roboto-Light_3.ttf"
+        app:layout_column="1"
+        app:layout_gravity="fill" />
+
+    <software.cneuro.neurogertheme.EditTextFont
+        android:id="@+id/card_calc_edittext_3"
+        style="@style/EditTextStyle"
+        android:layout_width="@dimen/edittext_mini_mental_width"
+        android:layout_height="@dimen/edittext_height"
+        android:hint="@string/edittext_math_hint"
+        android:padding="8dp"
+        app:myFont="Roboto-Light_3.ttf"
+        app:layout_column="2"
+        app:layout_gravity="center_vertical" />
+
+    <software.cneuro.neurogertheme.CheckBoxFont
+        android:id="@+id/card_calc_4"
+        style="@style/CheckboxStyle"
+        android:text="@string/card_label_age"
+        app:myFont="Roboto-Light_3.ttf"
+        app:layout_column="1"
+        app:layout_gravity="fill" />
+
+    <software.cneuro.neurogertheme.EditTextFont
+        android:id="@+id/card_calc_edittext_4"
+        style="@style/EditTextStyle"
+        android:layout_width="@dimen/edittext_mini_mental_width"
+        android:layout_height="@dimen/edittext_height"
+        android:hint="@string/edittext_math_hint"
+        android:padding="8dp"
+        app:myFont="Roboto-Light_3.ttf"
+        app:layout_column="2"
+        app:layout_gravity="center_vertical" />
+
+    <software.cneuro.neurogertheme.CheckBoxFont
+        android:id="@+id/card_calc_5"
+        style="@style/CheckboxStyle"
+        android:text="@string/card_label_age"
+        app:myFont="Roboto-Light_3.ttf"
+        app:layout_column="1"
+        app:layout_gravity="fill" />
+
+    <software.cneuro.neurogertheme.EditTextFont
+        android:id="@+id/card_calc_edittext_5"
+        style="@style/EditTextStyle"
+        android:layout_width="@dimen/edittext_mini_mental_width"
+        android:layout_height="@dimen/edittext_height"
+        android:hint="@string/edittext_math_hint"
+        android:padding="8dp"
+        app:myFont="Roboto-Light_3.ttf"
+        app:layout_column="2"
+        app:layout_gravity="center_vertical" />
+
+    <software.cneuro.neurogertheme.TextViewFont
+        style="@style/SubjectCardTitleBlackTextStyle"
+        android:gravity="center_vertical"
+        android:maxEms="3"
+        android:padding="16dp"
+        android:text="@string/card_label_spelling_word"
+        app:myFont="Roboto-Light_3.ttf"
+        app:layout_column="1"
+        app:layout_columnSpan="2"
+        app:layout_gravity="fill" />
+
+    <software.cneuro.neurogertheme.RadioButtonFont
+        android:id="@+id/rdb_male"
+        style="@style/RadioButtonInputStyle"
+        app:myFont="Roboto-Light_3.ttf"
+        app:layout_column="0"
+        app:layout_gravity="center" />
+
+    <software.cneuro.neurogertheme.EditTextFont
+        android:id="@+id/edit_subject_last_name"
+        style="@style/EditTextStyle"
+        android:padding="8dp"
+        app:myFont="Roboto-Light_3.ttf"
+        app:layout_column="1"
+        app:layout_columnSpan="2"
+        app:layout_gravity="fill_horizontal" />
+
+</androidx.gridlayout.widget.GridLayout>

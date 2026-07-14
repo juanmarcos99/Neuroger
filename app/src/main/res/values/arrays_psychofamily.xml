@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="psychofamily_tests">
+        <item>Situación familiar</item>
+        <item>Relaciones y contactos sociales</item>
+        <item>Apoyos a red social</item>
+    </string-array>
+
+    <string-array name="family_situation">
+        <item>Vive con pareja y/o familia sin conflicto</item>
+        <item>Vive con pareja de similar edad</item>
+        <item>Vive con pareja y/o familia y/o otros, pero no pueden o no quieren</item>
+        <item>Vive solo, hijos y/o familiares próximos que no cubren todas las necesidades</item>
+        <item>Vive solo, familia lejana, desatendido, sin familia</item>
+    </string-array>
+
+    <string-array name="relationships_contacts">
+        <item>Mantiene relaciones sociales fuera del domicilio</item>
+        <item>Sólo se relaciona con familia/vecinos/otros, sale de casa</item>
+        <item>Sólo se relaciona con familia, sale de casa</item>
+        <item>No sale de su domicilio, recibe familia o visitas (más de 1 por semana)</item>
+        <item>No sale del domicilio, ni recibe visitas (menor de 1 por semana)</item>
+    </string-array>
+
+    <string-array name="social_network_supports">
+        <item>No necesita ningún apoyo</item>
+        <item>Recibe apoyo de la familia y/o vecinos</item>
+        <item>Recibe apoyo social formal suficiente (centro de día, trabjador/a familiar, vive en residencia, etc.)</item>
+        <item>Tienen soporte social pero es insuficiente</item>
+        <item>No tiene ningún soporte social y lo necesita</item>
+    </string-array>
+
+</resources>

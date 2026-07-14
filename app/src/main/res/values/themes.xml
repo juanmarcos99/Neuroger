@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!-- ✅ Correcto para API 28 y Material 1.1.0 -->
+    <style name="Base.Theme.LicenciaApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.LicenciaApp" parent="Base.Theme.LicenciaApp" />
+</resources>

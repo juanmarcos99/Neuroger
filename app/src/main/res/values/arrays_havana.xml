@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="country">
+        <item>Cuba</item>
+       <!-- <item>México</item> -->
+    </string-array>
+
+    <string-array name="cuba_provinces">
+        <item>La Habana</item>
+        <!--  <item>Matanzas</item> -->
+      </string-array>
+
+      <string-array name="havana_municipalities">
+          <item>Arroyo Naranjo</item>
+          <item>Boyeros</item>
+          <item>Centro Habana</item>
+          <item>Cerro</item>
+          <item>Cotorro</item>
+          <item>Diez de Octubre</item>
+          <item>Guanabacoa</item>
+          <item>Habana del Este</item>
+          <item>La Habana Vieja</item>
+          <item>La Lisa</item>
+          <item>Marianao</item>
+          <item>Playa</item>
+          <item>Plaza de la Revolución</item>
+          <item>Regla</item>
+          <item>San Miguel del Padrón</item>
+      </string-array>
+
+      <string-array name="matanzas_municipalities">
+          <item>Calimete</item>
+          <item>Cárdenas</item>
+          <item>Ciénaga de Zapata</item>
+          <item>Colón</item>
+          <item>Jagüey Grande</item>
+          <item>Jovellanos</item>
+          <item>Limonar</item>
+          <item>Los Arabos</item>
+          <item>Martí</item>
+          <item>Matanzas</item>
+          <item>Pedro Betancourt</item>
+          <item>Perico</item>
+          <item>Unión de Reyes</item>
+      </string-array>
+
+  </resources>

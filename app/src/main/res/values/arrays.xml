@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="level_of_schooling">
+        <item>Nivel Primario (de 1 a 6 años de estudio)</item>
+        <item>Nivel Medio (de 7 a 12 años de estudio)</item>
+        <item>Nivel Superior (Universidad vencida)</item>
+    </string-array>
+
+    <string-array name="clinic_classification">
+        <item>Saludable</item>
+        <item>En riesgo</item>
+        <item>Agudamente enfermo</item>
+    </string-array>
+
+    <string-array name="origin">
+        <item>Hospitalizado</item>
+        <item>Consulta externa</item>
+        <item>Comunidad</item>
+        <item>Institucionalizado</item>
+    </string-array>
+
+    <string-array name="hospitals">
+        <item>CCSM –Boyeros</item>
+        <item>CCSM - Habana del Este</item>
+        <item>CCSM – Playa</item>
+        <item>CCSM – Plaza de la Revolución</item>
+        <item>CCSM – La Lisa</item>
+        <item>CCSM – La Habana Vieja</item>
+        <item>CCSM – Regla</item>
+        <item>CCSM – San Miguel del Padrón</item>
+        <item>CCSM – Diez de Octubre</item>
+        <item>CCSM – Guanabacoa</item>
+        <item>HA -La Lupe</item>
+        <item>HA – Alfredo Gómez Gendra</item>
+        <item>HA - Bernarda del Toro</item>
+        <item>HA - Chung Wah</item>
+        <item>HA - Villa Granma</item>
+        <item>HA - General Francisco Peraza</item>
+        <item>HA - Para empezar a Vivir</item>
+        <item>HA - San José</item>
+        <item>HA - 28 de enero</item>
+        <item>Dirección de Asuntos Humanitarios de la OH</item>
+        <item>CITED</item>
+        <item>Centro de Alzheimer</item>
+    </string-array>
+
+    <string-array name="skin_color">
+        <item>Blanca</item>
+        <item>Negra</item>
+        <item>Mestiza</item>
+        <item>Amarilla</item>
+    </string-array>
+
+    <string-array name="civil_state">
+        <item>Soltero</item>
+        <item>Casado</item>
+        <item>Acompañado</item>
+        <item>Viudo</item>
+        <item>Divorciado</item>
+    </string-array>
+
+    <string-array name="occupation">
+        <item>Jubilado</item>
+        <item>Trabajador</item>
+        <item>Ama de casa</item>
+    </string-array>
+
+    <string-array name="coexistence">
+        <item>Anciano solo</item>
+        <item>Con ancianos solamente</item>
+        <item>Institucionalizado</item>
+        <item>Otros</item>
+    </string-array>
+
+    <string-array name="familiarity">
+        <item>Hijo</item>
+        <item>Nieto</item>
+        <item>Hermano</item>
+        <item>Primo</item>
+        <item>Sobrino</item>
+        <item>Cónyugue</item>
+        <item>Otros</item>
+    </string-array>
+
+    <string-array name="pathological_antecedents">
+        <item>Enfermedad vascular cerebral</item>
+        <item>Diabetes</item>
+        <item>Enfermedad pulmonar obstructiva crónica</item>
+        <item>Insuficiencia cardiaca/cardiopatía isquémica</item>
+        <item>Demencia</item>
+        <item>Enfermedad arterial periférica</item>
+        <item>Insuficiencia renal crónica (diálasis)</item>>
+        <item>Cáncer</item>
+        <item>No reporta</item>
+    </string-array>
+
+    <string-array name="pathological_antecedents_scale">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="age_group">
+        <item>50 - 59</item>
+        <item>60 - 69</item>
+        <item>70 - 79</item>
+        <item>80 - 89</item>
+        <item>90 - 99</item>
+        <item>> 100</item>
+    </string-array>
+
+</resources>

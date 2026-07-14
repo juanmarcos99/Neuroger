@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <software.cneuro.neurogertheme.TextViewFont
+        android:id="@+id/detail_card_title"
+        style="@style/SubjectCardDetailTextStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="@dimen/input_row_item_margin_right"
+        android:layout_marginRight="@dimen/input_row_item_margin_right"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:text="@string/list_empty"
+        app:myFont="Roboto-Thin_3.ttf" />
+
+    <software.cneuro.neurogertheme.TextViewFont
+        android:id="@+id/detail_card_text"
+        style="@style/SubjectCardTitleBlackTextStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="@dimen/input_row_item_margin_right"
+        android:layout_marginRight="@dimen/input_row_item_margin_right"
+        android:layout_weight="1"
+        android:text="@string/list_empty"
+        app:myFont="Roboto-Light_3.ttf" />
+
+</LinearLayout>

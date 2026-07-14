@@ -1,0 +1,44 @@
+# Archivos de aplicación compilados
+*.apk
+*.ap_
+*.aab
+
+# Archivos para la máquina virtual ART/Dalvik
+*.dex
+
+# Archivos de clase de Java
+*.class
+
+# Archivos generados por el IDE o compiladores antiguos
+bin/
+gen/
+out/
+
+# Archivos de Gradle (Caché y compilación)
+.gradle/
+build/
+captures/
+
+# Archivo de configuración local (Rutas del SDK, NDK, etc.)
+local.properties
+
+# Archivos de firmado (¡MUY IMPORTANTE POR SEGURIDAD!)
+*.jks
+*.keystore
+
+# Android Studio (Configuración del IDE)
+.idea/
+# Si trabajas en equipo y quieres compartir estilos de código o configuraciones de ejecución, 
+# ignora solo los archivos de espacio de trabajo y caché:
+# !.idea/
+# .idea/workspace.xml
+# .idea/tasks.xml
+# .idea/gradle.xml
+# .idea/dictionaries
+# .idea/libraries
+# .idea/caches
+# *.iml
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db

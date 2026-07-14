@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <software.cneuro.neurogertheme.TextViewFont
+        android:id="@+id/questionary_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/yo"
+        android:textColor="@color/questionary_name"
+        android:textSize="@dimen/questionary_name_size"
+        app:myFont="Roboto-Light_3.ttf" />
+
+    <software.cneuro.neurogertheme.TextViewFont
+        android:id="@+id/questionary_answer_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/questionary_answer_box_container"
+        android:layout_below="@+id/questionary_name"
+        android:layout_marginLeft="@dimen/questionary_text_box_margin_left"
+        android:layout_marginRight="@dimen/questionary_text_box_margin_left"
+        android:background="@drawable/question_box"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/list_item_text"
+        android:textColor="@color/questionary_text"
+        android:textSize="@dimen/questionary_text_size"
+        app:myFont="Roboto-Thin_3.ttf" />
+
+    <include
+        android:id="@+id/questionary_answer_box_container"
+        layout="@layout/questionnaire_frecuency_answer_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/questionary_text_box_margin_left"
+        android:layout_marginLeft="@dimen/questionary_answer_margin_left"
+        android:layout_marginRight="@dimen/questionary_text_box_margin_left"
+        android:layout_marginStart="@dimen/questionary_answer_margin_left"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>

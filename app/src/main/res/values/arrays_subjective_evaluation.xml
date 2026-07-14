@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="copy_paste">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <!-- ANSWERS -->
+    <string-array name="subjective_health_state">
+        <item>Buena</item>
+        <item>Mala</item>
+        <item>Regular</item>
+    </string-array>
+
+    <string-array name="subjective_evaluation_answer_1a">
+        <item>Excelente</item>
+        <item>Muy Buena</item>
+        <item>Buena</item>
+        <item>Regular</item>
+        <item>Mala</item>
+    </string-array>
+
+    <string-array name="subjective_evaluation_answer_1b">
+        <item>Mejor que antes</item>
+        <item>Igual que antes</item>
+        <item>Peor que antes</item>
+    </string-array>
+
+    <string-array name="subjective_evaluation_answer_2">
+        <item>Dificultades para recordar hechos recientes.</item>
+        <item>Dificultades para orientarse espacialmente.</item>
+        <item>Dificultades para orientarse temporalmente.</item>
+        <item>Dificultades para hallar palabras.</item>
+        <item>Dificultades para manejar finanzas.</item>
+        <item>Dificultad para realizar más de una tarea a la vez.</item>
+        <item>No reporta.</item>
+    </string-array>
+
+    <string-array name="subjective_evaluation_answer_3">
+        <item>Brusco</item>
+        <item>Insidioso</item>
+        <item>No precisa</item>
+    </string-array>
+
+    <string-array name="subjective_evaluation_answer_4">
+        <item>Insidioso</item>
+        <item>Fluctuante</item>
+        <item>Escalonante</item>
+    </string-array>
+
+    <string-array name="subjective_evaluation_answer_5">
+        <item>6 meses – 1 año</item>
+        <item>1-2 años</item>
+        <item>2 años y más</item>
+    </string-array>
+
+    <!-- HELP -->
+    <string-array name="subjective_evaluation_help_1">
+        <item>Suele olvidar  acontecimientos o conversaciones recientes, dejar extraviado objetos de uso cotidiano, problemas para recordar nombres de personas que conoció recientemente.</item>
+        <item>Ha tenido dificultades para encontrar el camino de regreso a casa o a lugares previamente aprendido, le parece conocido el camino pero no se siente seguro.</item>
+        <item>Ha tenido dificultades o se siente confundido sobre el día, el mes o el año en que se encuentra.</item>
+        <item>Dificultades para recuperar  palabras comunes  y/o  nombres de objetos familiares. No encuentra la palabra que quiere decir en ese momento y hace sustituciones por otras que significan lo mismo.</item>
+        <item>Se confunde a la hora de dar o recibir dinero en el mercado. Estimar y calcular cuánto le costará una  compra.</item>
+    </string-array>
+
+    <string-array name="subjective_evaluation_help_2">
+        <item>Que ha aparecido de manera súbita, inicio rápido, repentino e intenso, con síntomas de comienzo evidentes.</item>
+        <item>Que se desarrolla lentamente, de manera continua, poco a poco y sin intensidad.</item>
+        <item>No puede ubicarlo en tiempo de aparición, no lo explica del todo o no tiene exactitud.</item>
+    </string-array>
+
+    <string-array name="subjective_evaluation_help_3">
+        <item>Que ha comenzado lentamente y evoluciona de  manera gradual, paulatinamente, evolución o avance ininterrumpido.</item>
+        <item>Que aumenta  y disminuye  la intensidad sin un patrón esperable de manifestaciones clínicas (conductuales, psicológicas, etc.) En ocasiones mejora y en otras empeora.</item>
+        <item>Determinado por una escala gradual o en peldaños en dirección variables ascendente  o descendente.</item>
+    </string-array>
+
+</resources>

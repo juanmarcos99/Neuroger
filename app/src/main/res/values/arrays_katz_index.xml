@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="katz_index_questions">
+        <item>Baño/Lavado</item>>
+        <item>Vestido</item>>
+        <item>Uso del retrete</item>>
+        <item>Movilización (Cama/Sillón)</item>>
+        <item>Continencia</item>
+        <item>Alimentación</item>
+    </string-array>
+
+    <string-array name="katz_index_answer">
+        <item>Independiente</item>
+        <item>Dependiente</item>
+    </string-array>
+
+    <string-array name="katz_index_help">
+        <item>Independiente: Necesita ayuda sólo para lavarse una parte del cuerpo o lo hace solo.
+            \n\nDependiente: Requiere ayuda al menos para lavarse más partes del cuerpo o para entrar y salir de la bañera.</item>
+        <item>Independiente: Se viste sin ayuda (incluye coger las cosas del armario). Excluye el atado de los cordones de los zapatos.
+            \n\nDependiente: No se viste solo o lo hace de forma incompleta.</item>
+        <item>Independiente: No precisa ningún tipo de ayuda para entrar y salir del cuarto de aseo. Usa el retrete, se limpia y se viste adecuadamente. Puede usar el orinal por la noche.
+            \n\nDependiente: Precisa ayuda para llegar hasta el retrete y para utilizarlo adecuadamente. Incluye el uso del orinal y la cuña.</item>
+        <item>Independiente: No requiere ayuda para sentarse o levantarse en una silla ni para entrar o salir de la cama (puede utilizar ayudas mecánicas, como bastón).
+            \n\nDependiente: Requiere alguna ayuda para una u otra acción.</item>
+        <item>Independiente: Control completo de la micción y de la defecación.
+            \n\nDependiente: Incontinencia total o parcial.</item>
+        <item>Independiente: Lleva la comida desde el plato o su equivalente a la boca (se excluyen cortar la carne y untar la mantequilla o similar).
+            \n\nDependiente: Precisa ayuda para la acción de alimentarse, o necesita de alimentación enteral o parenteral.
+        </item>
+    </string-array>
+</resources>

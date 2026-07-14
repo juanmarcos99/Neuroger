@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fatigue">
+        <item>Todo el tiempo</item>
+        <item>La mayor parte del tiempo</item>
+        <item>Algo de tiempo</item>
+        <item>Muy poco tiempo</item>
+        <item>Nada de tiempo</item>
+    </string-array>
+    
+    <string-array name="resistance">
+        <item>Sí</item>
+        <item>No</item>
+    </string-array>
+    
+    <string-array name="wandering">
+        <item>Sí</item>
+        <item>No</item>        
+    </string-array>
+    
+    <string-array name="diseases">
+        <item>Hipertensión arterial sistémica</item>
+        <item>Diabetes</item>
+        <item>Cáncer (otro que no sea cáncer menor de piel)</item>
+        <item>Enfermedad pulmonar crónica</item>
+        <item>Cardiopatía isquémica</item>
+        <item>Insuficiencia cardiaca congestiva</item>
+        <item>Angina</item>
+        <item>Asma </item>
+        <item>Artritis (incluyendo osteoartrosis y artritis reumatoide)</item>
+        <item>Enfermedad vascular cerebral (embolia)</item>
+        <item>Enfermedad renal crónica</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+rootProject.name = 'Neurodevelopment.NeuroGer.MCI'
+
+include ':app'
+// Agrega esta línea para que Gradle reconozca la carpeta ViewPagerIndicator
+include ':ViewPagerIndicator'
+// ← AGREGA ESTO para el módulo de tema:
+include ':libraries:neurodevelopment-neuroger-theme:neuroger.theme'
+include ':libraries:neurodevelopment-neuroger-database:neuroger.database'

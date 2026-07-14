@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <software.cneuro.neurogertheme.TextViewFont
+        android:id="@+id/card_help_tv"
+        style="@style/ListItemTextStyle"
+        android:layout_width="@dimen/edittext_height"
+        android:layout_height="@dimen/edittext_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        app:myFont="Roboto-Light_3.ttf"
+        tools:text="93" />
+
+    <software.cneuro.neurogertheme.TextViewFont
+        android:id="@+id/card_input_tv"
+        style="@style/ListItemTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/edittext_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        app:myFont="Roboto-Light_3.ttf"
+        tools:text="Cálculo 1" />
+
+    <software.cneuro.neurogertheme.EditTextFont
+        android:id="@+id/card_input_edittext"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edittext_height"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_toEndOf="@id/card_input_tv"
+        android:layout_toLeftOf="@id/card_help_tv"
+        android:layout_toRightOf="@id/card_input_tv"
+        android:layout_toStartOf="@id/card_help_tv"
+        android:padding="8dp"
+        app:myFont="Roboto-Light_3.ttf" />
+
+</RelativeLayout>

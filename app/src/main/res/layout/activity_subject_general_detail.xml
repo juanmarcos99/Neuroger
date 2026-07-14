@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/name_container"
+            layout="@layout/subject_name_large_image" />
+
+        <fragment
+            android:id="@+id/card_subject"
+            android:name="software.cneuro.neuroger.ui.detail.card.CardIconAndEvalItemFragment"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_no_item_height" />
+
+        <include
+            layout="@layout/horizontal_line_light_thin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <fragment
+            android:id="@+id/card_classification"
+            android:name="software.cneuro.neuroger.ui.detail.card.CardIconAndEvalItemFragment"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_no_item_height" />
+
+        <include
+            layout="@layout/horizontal_line_light_thin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/optional_tests_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <fragment
+                android:id="@+id/card_physical_performance"
+                android:name="software.cneuro.neuroger.ui.detail.card.CardIconAndEvalItemFragment"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/card_no_item_height" />
+
+            <include
+                layout="@layout/horizontal_line_light_thin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <fragment
+                android:id="@+id/card_cognitive_performance"
+                android:name="software.cneuro.neuroger.ui.detail.card.CardIconAndEvalItemFragment"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/card_no_item_height" />
+
+            <include
+                layout="@layout/horizontal_line_light_thin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

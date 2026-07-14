@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="card_antecedents_title">Índice de comorbilidad</string>
+
+    <string name="antecedents_title">A continuación usted le va a preguntar al paciente si padece de alguna de las enfermedades relacionadas a continuación.
+\n\nUsted debe marcar las casillas que correspondan con las enfermedades que le  reporte el paciente. Note que pudieran ser más de una. En su defecto marque No reporta.
+</string>
+
+    <string name="comorbidities">Comorbilidades</string>
+
+    <string name="antecedents_result_ok">Ausencia o baja comorbilidad.</string>
+    <string name="antecedents_result_negative">Alta comorbilidad.</string>
+
+    <string name="medicaments_result_ok">Normal, toma menos de 5 medicamentos.</string>
+    <string name="medicaments_result_negative">Polifarmacia, toma más de 5 medicamentos.</string>
+
+    <plurals name="medicaments_quantity_results">
+        <item quantity="zero">No toma ningún medicamento</item>
+        <item quantity="one">Toma %d medicamento</item>
+        <item quantity="other">Toma %d medicamentos</item>
+    </plurals>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pfeiffer_questions">
+        <item>¿Es capaz de manejar su propio dinero?</item>
+        <item>¿Es capaz de hacer las compras sólo (por ejemplo comprar la comida y la ropa)?</item>
+        <item>¿Es capaz de calentar el agua para el café o el té y apagar la cocina?</item>
+        <item>¿Es capaz de preparar la comida?</item>
+        <item>¿Es capaz de mantenerse al tanto de los acontecimientos y de lo que pasa en el vecindario?</item>
+        <item>¿Es capaz de poner atención, entender y discutir un programa de radio, televisión o un artículo de periódico?</item>
+        <item>¿Es capaz de recordar compromisos y acontecimientos familiares?</item>
+        <item>¿Es capaz de administrar o manejar sus propios medicamentos?</item>
+        <item>¿Es capaz de andar por el vecindario y encontrar el camino de vuelta a casa?</item>
+        <item>¿Es capaz de saludar a sus amigos adecuadamente?</item>
+        <item>¿Es capaz de quedarse solo(a) en la casa sin problemas?</item>
+    </string-array>
+
+    <string-array name="pfeiffer_help">
+        <item>El evaluador hará una serie de preguntas al paciente y debe escoger entre cuatro posibles respuestas que se presentan. Las preguntas están dirigidas únicamente a la esfera cognitiva. Por ejemplo, no se tienen en cuenta las discapacidades físicas que puedan impedir que el individuo administre sus propios medicamentos.  El puntaje en ese caso sería: “Sí es capaz” o “Nunca lo ha hecho, pero podrá hacerlo”.\n\n
+            Nota: Esta valoración debe ser cumplimentada por el cónyuge, un familiar o un amigo, debiendo escoger entre las
+            cuatro posibles respuestas que se presentan.</item>
+    </string-array>
+
+    <string-array name="pfeiffer_answer">
+        <item>Sí es capaz o nunca lo ha hecho, pero podría hacerlo</item>
+        <item>Con alguna dificultad pero puede hacerlo</item>
+        <item>Necesita ayuda</item>
+        <item>No es capaz.</item>
+    </string-array>
+
+    <string-array name="pfeiffer_scale">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>
