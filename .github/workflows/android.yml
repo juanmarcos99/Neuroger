@@ -21,13 +21,13 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
-    - name: Instalar NDK
+    - name: Instalar NDK y CMake
       uses: android-actions/setup-android@v3
       env:
         SKIP_JDK_VERSION_CHECK: "true"
         ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: "true"
       with:
-        packages: "ndk;21.4.7075529"
+        packages: "ndk;21.4.7075529 cmake;3.18.1"
 
     # 2. Volvemos a JDK 11 para la compilación real del proyecto
     - name: Configurar JDK 11 (para compilación)
