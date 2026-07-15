@@ -14,17 +14,28 @@ jobs:
     - name: Checkout del código
       uses: actions/checkout@v4
 
-    - name: Configurar JDK 11
+    # 1. Usamos JDK 17 temporalmente para que las herramientas de Android no den error
+    - name: Configurar JDK 17 (para herramientas)
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+
+    - name: Instalar NDK
+      uses: android-actions/setup-android@v3
+      env:
+        SKIP_JDK_VERSION_CHECK: "true"
+        ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: "true"
+      with:
+        packages: "ndk;21.4.7075529"
+
+    # 2. Volvemos a JDK 11 para la compilación real del proyecto
+    - name: Configurar JDK 11 (para compilación)
       uses: actions/setup-java@v4
       with:
         java-version: '11'
         distribution: 'temurin'
         cache: gradle
-
-    - name: Instalar NDK
-      uses: android-actions/setup-android@v3
-      with:
-        packages: "ndk;21.4.7075529"
 
     - name: Dar permisos de ejecución a gradlew
       run: chmod +x gradlew
