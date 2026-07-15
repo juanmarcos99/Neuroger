@@ -13,6 +13,8 @@ jobs:
     steps:
     - name: Checkout del código
       uses: actions/checkout@v4
+      with:
+        submodules: recursive
 
     # 1. Usamos JDK 17 temporalmente para que las herramientas de Android no den error
     - name: Configurar JDK 17 (para herramientas)
