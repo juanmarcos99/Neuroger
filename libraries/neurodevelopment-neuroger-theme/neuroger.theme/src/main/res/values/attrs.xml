@@ -1,0 +1,24 @@
+<resources>
+
+    <declare-styleable name="TextViewFont">
+        <attr name="myFont" format="string" />
+    </declare-styleable>
+    <declare-styleable name="CustomActionView">
+        <attr name="srcAction" format="integer" localization="suggested" />
+        <attr name="textAction" format="string" localization="suggested" />
+        <attr name="fontAction" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="FloatingActionButton">
+        <attr name="fab_colorPressed" format="color" />
+        <attr name="fab_colorNormal" format="color" />
+        <attr name="fab_colorRipple" format="color" />
+        <attr name="fab_colorDisabled" format="color" />
+        <attr name="fab_shadow" format="boolean" />
+        <attr name="fab_type" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="mini" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

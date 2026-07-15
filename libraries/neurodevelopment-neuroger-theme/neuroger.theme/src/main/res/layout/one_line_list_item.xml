@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/list_item_container"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_1_line_row_height"
+    android:background="@drawable/list_selector"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <ImageView
+        android:id="@id/list_item_icon"
+        android:layout_width="@dimen/list_item_image_height"
+        android:layout_height="@dimen/list_item_image_height"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/cd_list_item_icon"
+        android:src="@drawable/ic_avatar_small" />
+
+    <software.cneuro.neurogertheme.TextViewFont
+        android:id="@id/list_item_text"
+        style="@style/ListItemTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/list_item_icon"
+        android:layout_toRightOf="@id/list_item_icon"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/list_item_text"
+        app:font="Roboto-Light_3.ttf" />
+
+</RelativeLayout>

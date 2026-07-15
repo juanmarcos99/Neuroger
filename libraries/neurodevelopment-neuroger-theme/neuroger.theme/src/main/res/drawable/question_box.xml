@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Rounded Border Out -->
+    <item>
+        <shape android:shape="rectangle" >
+            <solid
+                android:width="1dip"
+                android:color="@color/primary" />
+
+            <padding
+                android:bottom="1dip"
+                android:left="1dip"
+                android:right="1dip"
+                android:top="1dip" />
+
+            <corners android:radius="5dip" />
+        </shape>
+    </item>
+
+    <!-- Background -->
+    <item>
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="270"
+                android:endColor="@color/question_box_inner"
+                android:startColor="@color/question_box_inner"
+                android:type="linear" />
+
+            <corners android:radius="5dp" />
+        </shape>
+    </item>
+
+</layer-list>

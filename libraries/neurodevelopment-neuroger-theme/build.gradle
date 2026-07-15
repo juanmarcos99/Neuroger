@@ -1,0 +1,39 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        maven {
+            url "http://localhost:8081/repository/maven-public/"
+        }
+        maven {
+            url "file://C:/Users/klaudia.CNEURO/AppData/Local/Android/sdk/extras/m2repository/"
+        }
+    }
+    dependencies {
+        //classpath 'com.android.tools.build:gradle:2.0.0'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+allprojects {
+    repositories {
+        maven {
+            url "http://localhost:8081/repository/maven-public/"
+        }
+        maven {
+            url "file://C:/Users/klaudia.CNEURO/AppData/Local/Android/sdk/extras/m2repository/"
+        }
+    }
+}
+
+ext {
+    // Sdk and tools
+    minSdkVersion = 10
+    targetSdkVersion = 25
+    compileSdkVersion = 25
+    buildToolsVersion = '26.0.2'
+
+    // App dependencies
+    supportLibraryVersion = '25.3.1'
+    constraintLayoutVersion = '1.0.2'
+}

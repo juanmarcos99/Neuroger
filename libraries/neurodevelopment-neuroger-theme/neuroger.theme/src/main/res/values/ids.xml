@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="tvContent" type="id"/>
+    <item name="conRl" type="id"/>
+
+    <item type="id" name="list_title_item_text"/>
+    <item type="id" name="list_item_text"/>
+    <item type="id" name="list_item_subtext"/>
+    <item type="id" name="list_item_icon"/>
+
+    <item type="id" name="btn_action"/>
+
+    <item type="id" name="spinner_item_text"/>
+
+    <item type="id" name="card_image"/>
+    <item type="id" name="card_image_arrow"/>
+    <item type="id" name="card_image_to_do"/>
+
+    <item type="id" name="btn_action_container"/>
+    <item type="id" name="stub_btn_end_test_container"/>
+</resources>

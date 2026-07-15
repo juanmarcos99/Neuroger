@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Neurodevelopment.NeuroGer.Theme</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="yo">Klaudia Garcia Liashenko</string>
+
+    <!-- MENU -->
+    <string name="action_settings">Configuración</string>
+
+    <!-- BUTTON -->
+    <string name="action_btn_save">Guardar</string>
+
+    <!-- LISTVIEW -->
+    <string name="list_item_text">Lorem ipsum dolor sit amet</string>
+    <string name="list_item_sub_text">consectetuer adipiscing elit</string>
+    <string name="list_empty">No content found</string>
+
+    <!-- IMAGE CONTENT DESCRIPTION -->
+    <string name="cd_list_item_icon">result icon</string>
+
+</resources>

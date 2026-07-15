@@ -1,0 +1,99 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7" tablets) here.
+    -->
+    <dimen name="btn_text_size">22sp</dimen>
+
+    <dimen name="custom_action_icon_height">28dp</dimen>
+
+    <dimen name="fab_size_normal">72dp</dimen>
+    <dimen name="fab_size_mini">56dp</dimen>
+
+    <dimen name="fragment_margin">26dp</dimen>
+
+    <dimen name="shadow_padding">1dp</dimen>
+
+    <dimen name="actionbar_height">76dp</dimen>
+
+    <dimen name="actionbar_text_title_size">14sp</dimen>
+    <dimen name="actionbar_text_subtitle_size">22sp</dimen>
+
+    <dimen name="search_specification_container_height">150dp</dimen>
+
+    <dimen name="detail_name_text">38sp</dimen>
+    <dimen name="detail_name_container_height">180dp</dimen>
+
+    <dimen name="detail_simple_name_text">30sp</dimen>
+    <dimen name="detail_simple_name_container_height">80dp</dimen>
+
+    <dimen name="input_control_height">60dp</dimen>
+    <dimen name="input_row_item_margin_right">16dp</dimen>
+    <dimen name="input_text">26sp</dimen>
+
+    <dimen name="rdb_input_text">20sp</dimen>
+    <dimen name="rdb_input_margin_right">16dp</dimen>
+    <dimen name="rdb_padding">1dp</dimen>
+
+    <dimen name="card_no_item_height">80dp</dimen>
+    <dimen name="card_1_item_height">100dp</dimen>
+    <dimen name="card_4_item_height">140dp</dimen>
+    <dimen name="card_image_margin">12dp</dimen>
+
+    <dimen name="card_title_text">22sp</dimen>
+    <dimen name="card_detail_text">22sp</dimen>
+    <dimen name="card_image_height">50dp</dimen>
+    <dimen name="card_image_arrow_height">32dp</dimen>
+
+    <dimen name="card_title_container_height">100dp</dimen>
+
+    <dimen name="card_evaluation_title_text">30sp</dimen>
+    <dimen name="card_evaluation_title_height">70dp</dimen>
+    <dimen name="card_evaluation_detail_text">24sp</dimen>
+    <dimen name="card_evaluation_help_image_height">32dp</dimen>
+    <dimen name="card_evaluation_image_small">14dp</dimen>
+
+    <dimen name="card_evaluation_height">248dp</dimen>
+
+    <dimen name="card_evaluation_static_height">250dp</dimen>
+    <dimen name="card_evaluation_static_balance_chrono_width">180dp</dimen>
+    <dimen name="card_evaluation_static_balance_chrono_height">200dp</dimen>
+    <dimen name="card_evaluation_static_balance_chrono_text">40sp</dimen>
+
+    <dimen name="list_item_text">22sp</dimen>
+    <dimen name="list_item_sub_text">18sp</dimen>
+    <dimen name="list_item_row_divider_height">1dp</dimen>
+    <dimen name="list_item_image_height">32dp</dimen>
+
+    <dimen name="list_item_1_line_row_height">80dp</dimen>
+
+    <dimen name="button_text_size">22sp</dimen>
+    <dimen name="button_height">60dp</dimen>
+
+    <dimen name="checkbox_text">22sp</dimen>
+    <dimen name="checkbox_questionnaire_text">26sp</dimen>
+
+    <dimen name="edittext_text_hint_size">24sp</dimen>
+    <dimen name="edittext_height">56dp</dimen>
+
+    <dimen name="edittext_mini_mental_width">64dp</dimen>
+
+    <dimen name="cbx_text_margin_left">2dp</dimen>
+
+    <dimen name="questionary_name_size">44sp</dimen>
+    <dimen name="questionary_text_box_margin_left">16dp</dimen>
+    <dimen name="questionary_answer_margin_left">120dp</dimen>
+
+    <dimen name="questionary_text_size">36sp</dimen>
+    <dimen name="questionary_answer_text_size">30sp</dimen>
+
+    <dimen name="circle_page_indicator_radius">5dp</dimen>
+
+    <dimen name="sv_card_3_height">300dp</dimen>
+    <dimen name="sv_card_3_rdb_margin_top">30dp</dimen>
+
+    <dimen name="dialog_text">26sp</dimen>
+
+    <dimen name="card_vertical_guideline_left_margin">80dp</dimen>
+</resources>

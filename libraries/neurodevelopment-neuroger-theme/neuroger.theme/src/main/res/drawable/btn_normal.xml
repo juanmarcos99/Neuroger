@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <!-- Rounded Border -->
+    <item android:drawable="@drawable/shadow_border_black"/>
+    
+    <!-- Rounded Border -->
+    <item android:drawable="@drawable/rounded_border"/>
+    
+    <!-- Background -->
+    <item>
+        <shape android:shape="rectangle" >
+            <solid android:color="@color/btn_normal" />
+        </shape>
+    </item>
+    
+    <!-- 
+    <item>
+        <shape android:shape="rectangle" >
+            <gradient
+                android:angle="270"
+                android:endColor="#CACAC9"
+                android:startColor="#ffffff"
+                android:type="linear" />
+            
+            <corners android:radius="3dip" />
+        </shape>
+    </item>
+    <item android:bottom="@dimen/button_hafHeight">
+        <shape android:shape="rectangle" >
+            <solid android:color="#80FFFFFF" />
+        </shape>
+    </item>
+     -->
+
+</layer-list>

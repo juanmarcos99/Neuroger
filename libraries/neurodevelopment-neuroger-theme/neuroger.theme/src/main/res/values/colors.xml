@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">#f92930</color>
+    <color name="primary_dark">#f92930</color>
+    <color name="accent">#6379b5</color>
+    <color name="colorControlNormal">#6379b5</color>
+    <color name="colorControlActivated">#ff685b</color>
+    <color name="colorControlHighlight">#ff685b</color>
+
+    <color name="custom_action_btn_text">#000000</color>
+
+    <color name="action_bar__text">#ffffff</color>
+
+    <color name="app_background">#eceded</color>
+
+    <color name="card_background">#ffffff</color>
+
+    <color name="subject_name_text">#ffffff</color>
+    <color name="subject_card_title_text_normal">#000000</color>
+    <color name="subject_card_title_text_disabled">#40000000</color>
+    <color name="subject_card_detail_text">#707173 </color>
+
+    <color name="btn_pressed">#4dff685b</color>
+    <color name="btn_normal">#ffffff</color>
+    <color name="btn_focused">#ffffff</color>
+    <color name="btn_disable">#80ffffff</color>
+
+    <color name="btn_text_pressed">#3C3C3B</color>
+    <color name="btn_text_normal">#3C3C3B</color>
+    <color name="btn_text_disable">#80323232</color>
+
+    <color name="btn_save_text_normal">#ffffff</color>
+    <color name="btn_save_text_pressed">#ccff685b</color>
+
+    <color name="list_item_selected_pressed">#4dff685b</color>
+
+    <color name="list_item_selected_action_mode">#4dff685b</color>
+
+    <color name="list_item_text">#000000</color>
+    <color name="list_item_text_disable">#80000000</color>
+    <color name="list_item_sub_text">#505050</color>
+    <color name="list_item_sub_text_disable">#80505050</color>
+    <color name="list_item_pressed">#4dff685b</color>
+    <color name="list_item_divider">#0D000000</color>
+
+    <color name="edittext_text_normal">#000000</color>
+    <color name="edittext_text_focused">#000000</color>
+    <color name="edittext_text_disable">#66000000</color>
+    <color name="edittext_text_hint_normal">#66000000</color>
+    <color name="edittext_text_hint_focused">#66000000</color>
+
+    <color name="edittext_focused">#ffffff</color>
+    <color name="edittext_normal">#FFFFFF</color>
+    <color name="edittext_disable">#66FFFFFF</color>
+    <color name="edittext_border">#66000000</color>
+    <color name="edittext_border_dark_red">#ffcc0000</color>
+    <color name="edittext_focused_border">#66000000</color>
+
+    <color name="rdb_gender_text">#707173</color>
+
+    <color name="physical_performance_result_background">#F6F6F6</color>
+
+    <color name="question_box_inner">#ffffff</color>
+    <color name="questionary_name">#6379b5</color>
+    <color name="questionary_text">#ff685b</color>
+    <color name="questionary_answer_text">#ffffff</color>
+
+    <color name="dialog_text">#000000</color>
+    <color name="dialog_btn_accent">#000000</color>
+
+    <color name="circle_page_indicator_pageColor">#ffffff</color>
+    <color name="circle_page_indicator_strokeColor">#33000000</color>
+
+</resources>

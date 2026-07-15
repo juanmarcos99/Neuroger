@@ -1,0 +1,316 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/primary</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <!-- colorAccent is used as the default value for colorControlActivated
+        which is used to tint widgets -->
+        <item name="colorAccent">@color/accent</item>
+
+        <!-- You can also set colorControlNormal, colorControlActivated
+         colorControlHighlight & colorSwitchThumbNormal. -->
+        <item name="colorControlNormal">@color/colorControlNormal</item>
+        <item name="colorControlActivated">@color/colorControlActivated</item>
+        <item name="colorControlHighlight">@color/colorControlHighlight</item>
+
+        <!--Action bar style-->
+        <item name="actionBarStyle">@style/ActionBar.Solid.Explorer</item>
+
+        <item name="actionModeBackground">@drawable/context_menu_background</item>
+
+        <item name="alertDialogTheme">@style/DialogStyle</item>
+    </style>
+
+    <style name="ActionBar.Solid.Explorer" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="titleTextStyle">@style/ActionBarTitle</item>
+        <item name="subtitleTextStyle">@style/ActionBarSubtitle</item>
+    </style>
+
+    <!-- TEXT -->
+    <style name="CustomActionTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/btn_text_size</item>
+        <item name="android:textColor">@color/custom_action_btn_text</item>
+    </style>
+
+    <style name="ActionBarTitle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" />
+
+    <style name="ActionBarSubtitle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+        <item name="android:textSize">@dimen/actionbar_text_subtitle_size</item>
+        <item name="android:textColor">@color/action_bar__text</item>
+    </style>
+
+    <style name="SubjectNameTextStyle" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">@dimen/detail_name_text</item>
+        <item name="android:textColor">@color/subject_name_text</item>
+    </style>
+
+    <style name="SubjectCardTitleBaseTextStyle" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">@dimen/card_title_text</item>
+    </style>
+
+    <style name="SubjectCardTitleBlackTextStyle" parent="@style/SubjectCardTitleBaseTextStyle">
+        <item name="android:textColor">@drawable/card_title_text_selector</item>
+    </style>
+
+    <style name="SubjectCardTitleWhiteTextStyle" parent="@style/SubjectCardTitleBaseTextStyle">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/primary</item>
+    </style>
+
+    <style name="SubjectCardTitleWhiteTextStyle.CustomPadding" parent="SubjectCardTitleWhiteTextStyle">
+        <item name="android:paddingTop">@dimen/fragment_margin_14</item>
+        <item name="android:paddingBottom">@dimen/fragment_margin_14</item>
+        <item name="android:paddingLeft">@dimen/fragment_margin</item>
+        <item name="android:paddingStart">@dimen/fragment_margin</item>
+        <item name="android:paddingEnd">@dimen/fragment_margin</item>
+        <item name="android:paddingRight">@dimen/fragment_margin</item>
+    </style>
+
+    <style name="CustomPadding">
+        <item name="android:paddingTop">@dimen/fragment_margin_14</item>
+        <item name="android:paddingBottom">@dimen/fragment_margin_14</item>
+        <item name="android:paddingLeft">@dimen/fragment_margin</item>
+        <item name="android:paddingStart">@dimen/fragment_margin</item>
+        <item name="android:paddingEnd">@dimen/fragment_margin</item>
+        <item name="android:paddingRight">@dimen/fragment_margin</item>
+    </style>
+
+    <style name="SubjectCardDetailTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/card_detail_text</item>
+        <item name="android:textColor">@color/subject_card_detail_text</item>
+    </style>
+
+    <style name="ListItemTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/list_item_text</item>
+    </style>
+
+    <style name="ListItemSubTextStyle" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">@dimen/list_item_sub_text</item>
+    </style>
+
+    <style name="EvaluationCardDetailTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/card_detail_text</item>
+        <item name="android:textColor">@color/subject_card_detail_text</item>
+    </style>
+
+    <style name="PathologicalCardDetailTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/checkbox_text</item>
+        <item name="android:textColor">@color/subject_card_detail_text</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="PathologicalTitleCardDetailTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/card_detail_text</item>
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <style name="QuestionnaireTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/questionary_text_size</item>
+        <item name="android:textColor">@color/questionary_text</item>
+    </style>
+
+    <!-- EDITTEXT -->
+    <style name="EditTextStyle" parent="@android:style/Widget.EditText">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:textColor">@drawable/edittext_text_selector</item>
+        <item name="android:textColorHint">@drawable/edittext_text_hint_selector</item>
+        <item name="android:background">@drawable/edittext_selectable_background</item>
+        <item name="android:textSize">@dimen/edittext_text_hint_size</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:inputType">textCapSentences</item>
+    </style>
+
+    <!-- SPINNER -->
+    <style name="SpinnerInputStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:background">@drawable/spinner_selectable_background</item>
+        <item name="android:dropDownSelector">
+            @drawable/spinner_dropdown_item_selectable_background
+        </item>
+    </style>
+
+    <style name="SpinnerItemSelectedTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/edittext_text_hint_size</item>
+        <item name="android:textColor">@drawable/btn_text_selector</item>
+    </style>
+
+    <style name="SpinnerItemDropdownTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/edittext_text_hint_size</item>
+        <item name="android:textColor">@drawable/btn_text_selector</item>
+    </style>
+
+    <!-- BUTTON -->
+    <style name="ButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/btn_selectable_background</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/btn_text_size</item>
+        <item name="android:textColor">@drawable/btn_text_selector</item>
+    </style>
+
+    <style name="ButtonSaveStyle" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/btn_save_selectable_background</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/btn_text_size</item>
+        <item name="android:textColor">@color/btn_save_text_normal</item>
+    </style>
+
+    <!-- IMAGEBUTTON -->
+    <style name="SearchImageButtonStyle" parent="@android:style/Widget.ImageButton">
+        <item name="android:background">@drawable/btn_selectable_background</item>
+        <item name="android:height">@dimen/button_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:src">@drawable/ic_search</item>
+    </style>
+
+    <style name="CalculateImageButtonStyle" parent="@android:style/Widget.ImageButton">
+        <item name="android:background">@drawable/btn_eval_calculate_selectable_background</item>
+        <item name="android:height">@dimen/edittext_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:src">@drawable/ic_calculate</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="ChronometerImageButtonStyle" parent="@android:style/Widget.ImageButton">
+        <item name="android:background">@drawable/btn_eval_calculate_selectable_background</item>
+        <item name="android:height">@dimen/edittext_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:src">@drawable/crono</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="HelpIconBase" parent="@android:style/Widget.ImageButton">
+        <item name="android:background">@drawable/btn_eval_help_selectable_background</item>
+        <item name="android:height">@dimen/card_evaluation_help_image_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="HelpIconRedStyle" parent="@style/HelpIconBase">
+        <item name="android:src">@drawable/help_red</item>
+    </style>
+
+    <style name="HelpIconWhiteStyle" parent="@style/HelpIconBase">
+        <item name="android:src">@drawable/help_white</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="DescriptionIconWhiteStyle" parent="@style/HelpIconBase">
+        <item name="android:src">@drawable/explicacion</item>
+    </style>
+
+    <style name="ImageHelpIconBlueStyle" parent="@style/HelpIconBase">
+        <item name="android:src">@drawable/imagen</item>
+    </style>
+
+    <style name="ImageHelpWhiteIconStyle" parent="@style/HelpIconBase">
+        <item name="android:src">@drawable/image_white</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <!-- RADIOBUTTON -->
+    <style name="RadioButtonInputStyle" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:textSize">@dimen/rdb_input_text</item>
+        <item name="android:textColor">@color/rdb_gender_text</item>
+        <item name="android:button">@drawable/radio_btn_input_selectable_background</item>
+        <item name="android:paddingLeft">@dimen/rdb_padding</item>
+    </style>
+
+    <style name="RadioButtonQuestionnaireStyle" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:textSize">@dimen/checkbox_questionnaire_text</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:button">@drawable/radio_btn_input_selectable_background</item>
+        <item name="android:paddingLeft">@dimen/rdb_padding</item>
+    </style>
+
+    <style name="RadioButtonQuestionnaireAnswerStyle" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:textSize">@dimen/questionary_answer_text_size</item>
+        <item name="android:textColor">@color/questionary_answer_text</item>
+        <item name="android:button">@drawable/radio_btn_questionary_answer_selectable_background
+        </item>
+        <item name="android:paddingLeft">@dimen/rdb_padding</item>
+    </style>
+
+    <!-- CHECKBOX -->
+    <style name="CheckboxStyle" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:textSize">@dimen/rdb_input_text</item>
+        <item name="android:textColor">@color/subject_card_detail_text</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/cbx_text_margin_left</item>
+        <item name="android:button">@drawable/ckb_selectable_background</item>
+    </style>
+
+    <style name="CheckboxWhiteStyle" parent="@style/CheckboxStyle">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:button">@drawable/ckb_selectable_white</item>
+    </style>
+
+    <style name="CheckboxQuestionnaireStyle" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:textSize">@dimen/checkbox_questionnaire_text</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/cbx_text_margin_left</item>
+        <item name="android:button">@drawable/ckb_selectable_background</item>
+    </style>
+
+    <!-- LISTVIEW -->
+    <style name="ListStyle">
+        <item name="android:divider">@color/list_item_divider</item>
+        <item name="android:dividerHeight">@dimen/list_item_row_divider_height</item>
+        <item name="android:listSelector">@drawable/list_selector</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">3000</item>
+    </style>
+
+    <!-- CHRONOMETER -->
+    <style name="ChronometerTextStyle">
+        <item name="android:textColor">@drawable/edittext_text_selector</item>
+        <item name="android:textColorHint">@drawable/edittext_text_hint_selector</item>
+        <item name="android:background">@drawable/edittext_selectable_background</item>
+        <item name="android:textSize">@dimen/edittext_text_hint_size</item>
+    </style>
+
+    <!-- DIALOG -->
+    <style name="DialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">@color/accent</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">@color/dialog_text</item>
+        <item name="android:windowTitleStyle">@style/DialogTitleTextStyle</item>
+    </style>
+
+    <style name="DialogTitleTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/accent</item>
+    </style>
+
+    <style name="DialogMessageTextStyle" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">@dimen/dialog_text</item>
+    </style>
+
+    <!-- APP GENERAL -->
+    <style name="AppStyle">
+        <item name="android:background">@color/app_background</item>
+    </style>
+
+    <!-- SEPARATOR -->
+    <style name="SeparatorLightLineStyle">
+        <item name="android:background">@color/list_item_divider</item>
+    </style>
+
+    <!-- CARD -->
+    <style name="CardStyle">
+        <item name="android:background">@drawable/list_selector</item>
+    </style>
+
+</resources>
