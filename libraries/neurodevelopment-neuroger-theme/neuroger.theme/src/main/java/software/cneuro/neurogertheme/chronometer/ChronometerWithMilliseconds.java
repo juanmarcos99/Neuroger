@@ -1,4 +1,4 @@
-package software.cneuro.neurogertheme.chronometer;
+﻿package software.cneuro.neurogertheme.chronometer;
 
 
 /*
@@ -13,7 +13,7 @@ import android.util.AttributeSet;
 
 import java.text.DecimalFormat;
 
-public class ChronometerWithMilliseconds extends android.support.v7.widget.AppCompatTextView {
+public class ChronometerWithMilliseconds extends androidx.appcompat.widget.AppCompatTextView {
     @SuppressWarnings("unused")
     private static final String TAG = "Chronometer";
 

@@ -1,7 +1,7 @@
-package software.cneuro.neurogertheme;
+﻿package software.cneuro.neurogertheme;
 
 import android.content.Context;
-import android.support.v7.widget.AppCompatImageButton;
+import androidx.appcompat.widget.AppCompatImageButton;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.ImageButton;
@@ -29,3 +29,4 @@ public class DontPressWithParentImageButton extends AppCompatImageButton {
 		super.setPressed(pressed);
 	}
 }
+

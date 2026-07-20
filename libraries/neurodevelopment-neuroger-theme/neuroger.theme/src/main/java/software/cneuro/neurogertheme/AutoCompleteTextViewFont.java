@@ -1,11 +1,11 @@
-package software.cneuro.neurogertheme;
+﻿package software.cneuro.neurogertheme;
 
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
 
-public class AutoCompleteTextViewFont extends android.support.v7.widget.AppCompatAutoCompleteTextView {
+public class AutoCompleteTextViewFont extends androidx.appcompat.widget.AppCompatAutoCompleteTextView {
 	public AutoCompleteTextViewFont(final Context context) {
 		this(context, null);
 	}
@@ -32,3 +32,4 @@ public class AutoCompleteTextViewFont extends android.support.v7.widget.AppCompa
 
 	}
 }
+

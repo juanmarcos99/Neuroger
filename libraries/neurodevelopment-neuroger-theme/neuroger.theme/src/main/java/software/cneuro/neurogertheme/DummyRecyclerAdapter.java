@@ -1,8 +1,8 @@
-package software.cneuro.neurogertheme;
+﻿package software.cneuro.neurogertheme;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -98,3 +98,4 @@ public class DummyRecyclerAdapter extends
         mCallbacks.OnItemClickListener(v.findViewById(R.id.list_item_icon), position, mItems[position], mSubItems[position], mImages[position]);
     }
 }
+

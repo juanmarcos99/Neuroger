@@ -1,9 +1,9 @@
-package software.cneuro.neurogertheme;
+﻿package software.cneuro.neurogertheme;
 
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Typeface;
-import android.support.v7.widget.AppCompatEditText;
+import androidx.appcompat.widget.AppCompatEditText;
 import android.util.AttributeSet;
 
 public class EditTextFont extends AppCompatEditText {
@@ -33,3 +33,4 @@ public class EditTextFont extends AppCompatEditText {
 
 	}
 }
+

@@ -1,11 +1,11 @@
-package software.cneuro.neurogertheme;
+﻿package software.cneuro.neurogertheme;
 
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Typeface;
 import android.os.Build;
-import android.support.v7.widget.AppCompatRadioButton;
+import androidx.appcompat.widget.AppCompatRadioButton;
 import android.util.AttributeSet;
 
 /**
@@ -65,3 +65,4 @@ public class RadioButtonFont extends AppCompatRadioButton {
         }
     }
 }
+

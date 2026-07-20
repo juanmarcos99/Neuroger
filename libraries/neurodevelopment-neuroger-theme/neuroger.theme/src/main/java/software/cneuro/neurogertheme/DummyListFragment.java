@@ -2,9 +2,9 @@ package software.cneuro.neurogertheme;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -88,7 +88,8 @@ public class DummyListFragment extends Fragment implements DummyRecyclerAdapter.
             mLayoutManager = new LinearLayoutManager(getActivity());
             mRecyclerView.setLayoutManager(mLayoutManager);
             mRecyclerView.addItemDecoration(
-                    new DividerItemDecoration(getActivity().getResources().getDrawable(R.drawable.list_divider),
+                    new DividerItemDecoration(getActivity().getResources().getDrawable(R.drawable.list_divider,
+                            getActivity().getTheme()),
                             false, false));
         }
 
@@ -130,3 +131,4 @@ public class DummyListFragment extends Fragment implements DummyRecyclerAdapter.
     }
 
 }
+

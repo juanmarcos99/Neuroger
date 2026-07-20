@@ -1,9 +1,9 @@
-package software.cneuro.neurogertheme;
+﻿package software.cneuro.neurogertheme;
 
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Typeface;
-import android.support.v7.widget.AppCompatButton;
+import androidx.appcompat.widget.AppCompatButton;
 import android.util.AttributeSet;
 
 public class ButtonFont extends AppCompatButton {
@@ -33,3 +33,4 @@ public class ButtonFont extends AppCompatButton {
 
 	}
 }
+
